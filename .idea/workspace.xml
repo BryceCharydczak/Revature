@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/HTML Demo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/style1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Day2/Javascript.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Images/1200px-Transportation_Security_Administration_Logo.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Images/1200px-Wikipedia-logo-v2-en.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Images/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,83 +23,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="March 19, 2018" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/March 19, 2018">
+      <file leaf-file-name="BootstrapDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state relative-caret-position="436">
+              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login Page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html">
+      <file leaf-file-name="Favorite Websites.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+            <state relative-caret-position="-329">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css">
+      <file leaf-file-name="Login Page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Login Page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="38" column="42" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Register Page" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page">
+        <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#h4#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#h4#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Favorite Websites.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTML Demo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/HTML Demo">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/style1">
+      <file leaf-file-name="Javascript.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1887">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,6 +115,11 @@
         <option value="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html" />
         <option value="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html" />
         <option value="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html" />
+        <option value="$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Login Page.html" />
+        <option value="$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page" />
+        <option value="$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" />
+        <option value="$PROJECT_DIR$/Notes/Day2/Javascript.txt" />
       </list>
     </option>
   </component>
@@ -173,14 +162,25 @@
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="March 19, 2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="March 19, 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="BootstrapDocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Day2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,9 +194,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignments/Assignment2" />
       <recent name="$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages" />
     </key>
   </component>
@@ -389,23 +391,16 @@
     <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
-          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#h4#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#h4#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -421,18 +416,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Login Page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

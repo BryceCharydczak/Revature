@@ -1,0 +1,18 @@
+JavaScript
+
+Interpreted - no need for compiling
+    - saves time on testing and developing
+
+Loosely Typed:
+    - variables have types but dont need to be declared or casted (similar to Python)
+
+HashMapping:
+var person = {name:"joe",age:25,email:"joe@gmail.com"}
+Arrays:
+var colors = ["blue","red","green"]
+
+
+TYPE COERSION:
+    - Implicitly casting of types
+
+NaN = not a number
