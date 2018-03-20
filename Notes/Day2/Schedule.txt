@@ -1,0 +1,7 @@
+Week1:  Java
+Week2:  SQL/JDBC
+Week3:  Client-side tech/SDLC
+Week4:  Servlets
+Week5:  DevOps/Hibernate
+Week6:  Spring
+Week7:  Web Services/Microservices
