@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Revature</title>
+    <link
+</head>
+<h1>
+    Hello, This is the big header.
+    <body>
+    <p class = "red-par"></p>
+    <h3>
+        small text
+    </h3>
+
+
+    <form>
+    <input type = "text">
+        <select>
+            <option value = "new">New</option>
+            <option value = "old">Old</option>
+        </select>
+    <input type = "submit">
+    </form>
+    <img src="https://www.google.com/search?q=html+tags&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi11-Wj8_jZAhUKu1MKHQ-zCNAQ_AUoAnoECAAQBA&biw=1366&bih=573#imgrc=XWsi3Hl54fDmPM:" alt=tags pic">
+
+
+    </body>
+
+</h1>
+</html>

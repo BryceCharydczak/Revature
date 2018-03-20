@@ -1,0 +1,20 @@
+    /* Referring to a tagname: */
+    body {
+        background-color: rgb(255,255,255);
+    }
+
+    #text-content {
+        font-family: cursive;
+        font-size: 15px;
+    }
+
+    .red-par{
+        background-color: rgb(255,0,0);
+    }
+
+    img{
+        margin: 25px;
+        border: 15px red;
+        border-radius: 15px;
+        padding: 50px;
+    }

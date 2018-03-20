@@ -1,0 +1,16 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+body {background-color: rgba(69, 218, 238, 0.596);}
+
+#corners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+
+}
+div {
+    cursor:crosshair;
+}

@@ -1,0 +1,50 @@
+HTML
+hypertext markup language
+
+<tagname   attribute="value"> content</tagname>
+
+(most basic front end development language)
+
+<!DOCTYPE html>
+<html>
+<head> (metadata)
+    <title> My Web Page </title>
+    (link external stylesheets)
+</head>
+<body>
+    <h1>header</h1>
+    <p>paragraph1</p>
+</body>
+</html>
+
+
+
+
+
+CSS
+Cascading style sheets
+
+INLINE
+    style attribute in element
+
+INTERNAL
+    written in head of html document in style tags
+
+EXTERNAL
+    link to a style sheet in the head of the document
+
+
+Priority list of overriding:
+1. inline
+2. internal
+3. external
+
+higher ranking itmes in the priority list override the descending items.
+
+tagname
+id  usually has a "#" in the front (#par1)
+class usually has a "." in the front (.classname)
+
+
+border is the distance between edge of the page and element
+padding is the distance between border and element
