@@ -82,22 +82,10 @@ function printShape(shape, height, character){
             buildStr+=character;
         }
     } else {
-        console.log(buildStr)
         var midpoint = Math.floor(height/2)+1;
-        for (var i = 0; i < midpoint-1; i++){
-            buildStr+=(character+character);
-            count+=2;
-            console.log(buildStr);
-
-            
-        }
-        for (var i = midpoint-1; i < height; i++){
-            count-=2;
-            buildStr = buildStr.substring(0,count);
-            console.log(buildStr);
-            
-        }
-
+        var arr = new Array(height);
+        arr.fill("2");
+        console.log(arr);
         
     }
     

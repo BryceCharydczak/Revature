@@ -35,50 +35,105 @@
 
 <div class="container">
     <form>
-        <div class="form-group">
-            <label>Username:</label>
+        <div class="form-group row">
+            <div class="col-xs-2">
+                <label for="user">Username:</label>
             <input class="form-control"
-                   placeholder="Username">
+                   placeholder="Username" id="user" type="text">
+            </div>
+            <div class="col-xs-2">
             <label>Password:</label>
             <input class="form-control"
                    placeholder="Password">
+            </div>
+            <div class="col-xs-2">
+            <label>First Name:</label>
+            <input class="form-control"
+                   placeholder="First Name">
+            </div>
+            <div class="col-xs-2">
+            <label>Last Name:</label>
+            <input class="form-control"
+                   placeholder="Last Name">
+            </div>
+            <div class="col-xs-2">
+            <label>Email:</label>
+            <input class="form-control"
+                   placeholder="Email">
+            </div>
+
         </div>
     </form>
 
 
-<h4>Are you a US Citizen?
-<select>
-    <option value = yes>Yes</option>
-    <option value = no>No</option>
+    <div class="form-group">
+        <label for="selectForm">Are you a US Citizen?</label>
+        <select class="form-control" id="selectForm">
+            <option>Yes</option>
+            <option>No</option>
 
-</select>
+        </select>
+    </div>
 <br>
     <br>
     <br>
     Check all that apply:
     <br>
-    I have been to a foreign country in the past 6 months.
-    <input type = checkbox>
-    <br>
-    I have agricultural products from a foreign land in my possession.
-    <input type = checkbox>
-    <br>
-    I have been in contact with cattle or agriculture-based animals in the past 6 months.
-    <input type = checkbox>
-    <br>
-    I have equipment worth an amount of, or exceeding $10,000.
-    <input type = checkbox>
-    <br>
-    <br>
-    <br>
-    <br>
-    <form action = "Favorite Websites.html">
-    <div style="text-align:center">
-        <input style = "height:5em; width:10em"type="submit" />
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="foreignCountry">
+        <label class="form-check-label" for="foreignCountry">
+            I have been to a foreign country in the past 6 months.
+        </label>
     </div>
-    </form>
-</h4>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="possession">
+        <label class="form-check-label" for="possession">
+            I have algricultural products from a foreign land in my possession.
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="cattle">
+        <label class="form-check-label" for="cattle">
+            I have been in contact with cattle or agricultural-based animals in the past 6 months.
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="equipment">
+        <label class="form-check-label" for="equipment">
+            I have equipment worth up to, or exceeding $10,000 with me.
+        </label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align:center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#congratsModal">
+            Launch demo modal
+        </button>
+    </div>
+    <div class="modal fade" id="congratsModal" tabindex="-1" role="dialog" aria-labelledby="congratsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="congratsModalLabel">Successful Registration!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
 
 </body>
 </html>
