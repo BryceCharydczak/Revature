@@ -3,7 +3,7 @@ function fib(number){
     for (var i = 2; i < number+1; i++){
         arr[i] = arr[i-1] + arr[i-2];
     }
-    return fib[number];
+    return arr[number];
 
 }
 

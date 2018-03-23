@@ -84,8 +84,12 @@ function printShape(shape, height, character){
     } else {
         var midpoint = Math.floor(height/2)+1;
         var arr = new Array(height);
-        arr.fill("2");
-        console.log(arr);
+        var side = "";
+        var answer = side + buildStr + side;
+        for (var i = midpoint-1; i > -1; i--){
+            side+=" ";
+        }
+        
         
     }
     
