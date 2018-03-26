@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DOM</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+      
+</head>
+<body>
+    <div>
+   	 <div>
+   		 <h3>
+   			 Sum: <span id="sum"></span>
+   		 </h3>
+   		 <h5 id="currentTime"></h5>
+   	 </div>
+   	 <div>
+   		 <h1>
+   			 United <span data-customAttr="USA">States</span> of America (<span>USA</span>)
+   		 </h1>
+   		 <div>
+   			 <a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click
+   				 Here</a>
+   		 </div>
+   		 <a>Click Here</a> <a>Click <span>Here1</span></a> <a>Click Here</a>
+   		 <div>
+   			 <select name="colors">
+   				 <option value="green">Green</option>
+   				 <option value="blue">Blue</option>
+   				 <option value="red" selected="selected">Red</option>
+   				 <option value="purple">Purple</option>
+   				 <option value="yellow" selected="selected">Yellow</option>
+   			 </select>
+   		 </div>
+   	 </div>
+   	 <p id="helloWorld">Hello, World!</p>
+   	 <div>
+   		 <table>
+   			 <tr>
+   				 <th>Name</th>
+   				 <th>Department</th>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName">John</td>
+   				 <td>Sales</td>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName">Amy</td>
+   				 <td>Finance</td>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName">Austin</td>
+   				 <td>Sales</td>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName">Katie</td>
+   				 <td>Marketing</td>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName" data-customAttr="court">Courtney</td>
+   				 <td>Sales</td>
+   			 </tr>
+   			 <tr>
+   				 <td class="empName">Scout</td>
+   				 <td>Sales</td>
+   			 </tr>
+   		 </table>
+   	 </div>
+   	 <form id="firstForm">
+   		 <a>Click <span>Here2</span></a> <input type="text"
+   			 data-customAttr="7" /><br /> <input type="text" data-customAttr="24" /><br />
+   		 <input type="radio" name="favoriteAnimal" value="dog" />Dog<br /> <input
+   			 type="radio" name="favoriteColor" value="blue" />Blue<br /> <input
+   			 id="num1" class="nums" type="text" /><br /> <input type="radio"
+   			 name="favoriteAnimal" value="cat" />Cat<br /> <input type="radio"
+   			 name="favoriteColor" value="red" />Red<br /> <input type="radio"
+   			 name="favoriteAnimal" value="horse" />Horse<br /> <input
+   			 type="radio" name="favoriteAnimal" value="dolphin" />Dolphin<br /> <a>Click
+   			 <span>Here</span>
+   		 </a><br /> <input type="radio" name="favoriteAnimal" value="eagle" />Eagle<br />
+   		 <input type="radio" name="favoriteColor" value="green" />Green<br />
+   		 <input type="radio" name="favoriteColor" value="orange" />Orange<br />
+   		 <select name="hobbies">
+   			 <option value="photography">Photography</option>
+   			 <option value="football" selected="selected">Football</option>
+   			 <option value="kayaking" selected="selected">Kayaking</option>
+   			 <option value="hiking">Hiking</option>
+   			 <option value="programming" selected="selected">Programming</option>
+   		 </select> <input id="num2" class="nums" type="text"/> <select name="skills">
+   			 <option value="java">Java</option>
+   			 <option value="net">.NET</option>
+   			 <option value="dom" selected="selected">DOM</option>
+   			 <option value="html">HTML</option>
+   			 <option value="css">CSS</option>
+   			 <option value="javascript" selected="selected">Javascript</option>
+   		 </select>
+   	 </form>
+    </div>
+    <a>Click Here</a>
+    <a>Click <span data-customAttr="500">Here3</span></a>
+    <a>Click Here</a>
+    <script>
+        
+        function getUSA(){
+    var temp = document.getElementsByTagName("span");
+    var answer = temp[2].innerHTML;
+    console.log(answer);
+}
+
+function getPeopleInSales(){
+    var temp = document.getElementsByTagName("td");
+    for (var i = 0; i < temp.length; i++){
+        if(temp[i].innerHTML == "Sales"){
+            console.log(temp[i-1].innerHTML);
+        }
+    }
+}
+
+function getAnchorChildren(){
+    var temp = document.getElementsByTagName('span');
+    for (var i = 0; i < temp.length; i++){
+        console.log(temp[i].innerHTML);
+    }
+}
+
+function getHobbies(){
+    var temp = document.getElementsByTagName('*');
+    for (var i = 0; i < temp.length; i++){
+        if(temp[i].getAttribute('name') == 'skills'){
+            var blah = temp[i].childNodes;
+            for (var j = 0; j < blah.length; j++){
+                if(blah[j].getAttribute('selected') == 'selected'){
+                    console.log(blah[j].innerHTML);
+                }
+            }
+        }
+    }
+
+}
+
+function getCustomAttribute(){
+    var val = $("[data-customAttr]");
+    for ( var i = 0; i < val.length; i++){
+        console.log(val[i]);
+        console.log(val[i].innerHTML);
+    }
+}
+
+//6
+document.getElementById('num1').addEventListener('input',sumEvent);
+document.getElementById('num2').addEventListener('input',sumEvent);
+
+function sumEvent(){
+   var num1 = Number(document.getElementById('num1').value);
+   var num2 = Number(document.getElementById('num2').value);
+   var sumNums = num1 + num2;
+
+   document.getElementById('sum').innerHTML = sumNums;
+   
+}
+
+//7
+var skills = document.getElementsByTagName('*');
+    for( var i = 0; i < skills.length; i++){
+        if(skills[i].getAttribute('name') == 'skills'){
+            skills[i].addEventListener('click', pingAlert);
+        }
+    }
+function pingAlert(){
+    pingStr = "Are you sure " + this.getAttribute('value') + " is one of your skills?";
+    alert(pingStr);
+}
+
+
+//8
+var everything = document.getElementsByTagName('*');
+    for (var i = 0; i < everything.length; i++){
+        if(everything[i].getAttribute("name") == "favoriteColor"){
+            everything[i].addEventListener("click", colorChange);
+        }
+    }
+
+    var lastclick = "none";
+
+function colorChange(){
+    if(lastclick != this.getAttribute('value') && lastclick != "none"){
+    var alertStr = "So you like " 
+    alertStr+= this.getAttribute("value")
+    alertStr+="more than "
+    alertStr+= lastClick
+    alertStr+=" now?"; 
+    alert(alertStr);
+    }
+    lastClick = this.getAttribute('value');
+}
+
+//9
+var x = document.getElementsByClassName('empName');
+for (var i = 0; i < x.length; i++){
+    x[i].addEventListener('mouseover', hideEmployees);
+}
+function hideEmployees() {    
+    if (this.style.visibility == 'hidden') {
+
+        this.style.visibility = 'visible';
+    } else {
+        this.style.visibility = 'hidden';
+    }
+
+}
+
+//10
+setInterval(function(){
+    var x = new Date();
+    var y = x.toLocaleTimeString();
+    document.getElementById('currentTime').innerHTML = y;
+}, 1000);
+
+
+
+
+
+//11
+document.getElementById('helloWorld').addEventListener('click',delay);
+function delay(){
+
+    setTimeout(function(){
+    var finalAnswer = "rgb(";
+    finalAnswer+= Math.floor(Math.random()*255);
+    finalAnswer+= ",";
+    finalAnswer+= Math.floor(Math.random()*255);
+    finalAnswer+= ",";
+    finalAnswer+= Math.floor(Math.random()*255);
+    finalAnswer+=")";
+    document.getElementById('helloWorld').style.color = finalAnswer;},3000);
+}
+
+    </script>
+</body>
+</html>

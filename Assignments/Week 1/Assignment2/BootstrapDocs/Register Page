@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <title>
+        Registration Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/homepage.html">Website Name</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="Login Page.html">Login</a></li>
+            <li><a href="Register Page">Register</a></li>
+            <li><a href="Favorite Websites.html">Important Information</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <form>
+        <div class="form-group row">
+            <div class="col-xs-2">
+                <label for="user">Username:</label>
+            <input class="form-control"
+                   placeholder="Username" id="user" type="text">
+            </div>
+            <div class="col-xs-2">
+            <label>Password:</label>
+            <input class="form-control"
+                   placeholder="Password">
+            </div>
+            <div class="col-xs-2">
+            <label>First Name:</label>
+            <input class="form-control"
+                   placeholder="First Name">
+            </div>
+            <div class="col-xs-2">
+            <label>Last Name:</label>
+            <input class="form-control"
+                   placeholder="Last Name">
+            </div>
+            <div class="col-xs-2">
+            <label>Email:</label>
+            <input class="form-control"
+                   placeholder="Email">
+            </div>
+
+        </div>
+    </form>
+
+
+    <div class="form-group">
+        <label for="selectForm">Are you a US Citizen?</label>
+        <select class="form-control" id="selectForm">
+            <option>Yes</option>
+            <option>No</option>
+
+        </select>
+    </div>
+<br>
+    <br>
+    <br>
+    Check all that apply:
+    <br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="foreignCountry">
+        <label class="form-check-label" for="foreignCountry">
+            I have been to a foreign country in the past 6 months.
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="possession">
+        <label class="form-check-label" for="possession">
+            I have algricultural products from a foreign land in my possession.
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="cattle">
+        <label class="form-check-label" for="cattle">
+            I have been in contact with cattle or agricultural-based animals in the past 6 months.
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="equipment">
+        <label class="form-check-label" for="equipment">
+            I have equipment worth up to, or exceeding $10,000 with me.
+        </label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align:center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#congratsModal">
+            Launch demo modal
+        </button>
+    </div>
+    <div class="modal fade" id="congratsModal" tabindex="-1" role="dialog" aria-labelledby="congratsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="congratsModalLabel">Successful Registration!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
