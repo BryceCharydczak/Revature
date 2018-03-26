@@ -1,5 +1,6 @@
 var count = 0;
 var sides, jsonOBJ;
+var currentSlideInterval = 1;
 
 //logic for input comparison to json object
 //if (AccountsObject[0].username == )
@@ -98,11 +99,18 @@ function start1(){
 
     }
 
+
+//https://stackoverflow.com/questions/37872561/html-add-elements-dynamically-using-js
 function start10(){
     sides = document.getElementsByClassName('side');
     jsonOBJ = JSON.parse(Translations);
 
-    for (var i = 0 ; i < 10; i++){
+    counter = Object.keys(jsonOBJ).length;
+
+    
+    console.log(counter);
+
+    for (var i = 0 ; i < counter; i++){
         for (var j = i*2; j < i*2+2; j++){
             if (j%2 == 0){
                 sides[j].innerHTML = jsonOBJ[i].definition;
