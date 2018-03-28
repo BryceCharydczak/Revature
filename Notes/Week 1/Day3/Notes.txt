@@ -1,0 +1,66 @@
+Reflection - a way for java to discover certain things about itself.
+    - <dynamic introspection> - This is java's way at runtime to determine within itself what is being used, methods, classes, constructors, etc...
+    Many things within java rely on Reflection (intelisense), many frameworks like hibernate and spring.
+    java.lang.reflect
+
+    Cons:
+    Performance overhead - takes time to load the accessors into memory
+    security risk because reflection can be overrided
+
+
+Class - the class class (god of all classes)
+    - forName() - loads classes
+    - getName() - gets class name.
+    - newInstance() - creates a new instance.
+
+
+ashwin@revature.com
+
+
+
+You cannot reduce the visibility of inheritted methods, but you can increase the visibility.
+final - classes cannot be subclassed, methods cannot be overridden, variables cannot be changed
+finalize - the preceeding step that calls a variable before garbage collection to make sure the variable is finished being used.
+finally - the last portion to exceptions that excecutes at the end of the try/catch block.
+
+
+Static methods are not inheritted by subclasses.
+
+
+contravariance -
+covarience -
+Replace with a subclass, not a superclass.
+
+
+interfaces & abstract classes:
+both can have abstract methods
+both can't be instantiated
+
+
+Marker interfaces = interface but no abstract methods - this class needs to have special permissions
+    - Serializable - object needs to be transferred in binary
+    - Cloneable
+    - Remote - allows remote method invocation
+Functional interface =
+
+
+Streams = abstractions of various types of inputs and outputs
+    - byte Streams (binary data)
+    - character streams (Unicode character data)
+
+OutputStream - an abstract class defined in java
+    - outputting data to a byte stream
+
+InputStream - an abstract class
+    - responsible for reading data back into the machine from a byte stream
+    - needs throwsIOException to be handled when reading.
+
+
+
+
+Reader - read character data from streams
+
+Writer - write character streams to file
+
+
+

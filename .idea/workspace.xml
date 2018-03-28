@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML CSS Assignment.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Favorite Websites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/1200px-Transportation_Security_Administration_Logo.svg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/1200px-Wikipedia-logo-v2-en.svg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Login Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Register Page" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/Bootstrap Assignment.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Favorite Websites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/1200px-Transportation_Security_Administration_Logo.svg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/1200px-Wikipedia-logo-v2-en.svg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Login Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Register Page" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/tester.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment3/Index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/AboutMe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/FavoriteWeb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Flashcards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Flashcards.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/FlashcardsSingle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/GitHub.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/HackerRank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/Data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/Flashcards.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/cherry.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/plantstore-flowering-cherry-blossom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/youtube.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/Day1Notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/HTMLDemo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/stylingDemo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/Javascript.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/Schedule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/event-prop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/event-prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/fibonacciButton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/todo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/todo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/BootStrapTable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/ajax-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/ajax-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day4/2truths1lie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day4/Software Development Life Cycles.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 1/Day3/Notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html" afterPath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page" afterPath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/FlashcardProject/Flashcards.js" afterPath="$PROJECT_DIR$/Assignments/Week 0/FlashcardProject/Flashcards.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +14,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day3/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,6 +68,7 @@
         <option value="$PROJECT_DIR$/Notes/Week 1/Day1" />
         <option value="$PROJECT_DIR$/Notes/Week 1/Day2/testerClass.java" />
         <option value="$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt" />
+        <option value="$PROJECT_DIR$/Notes/Week 1/Day3/Notes.txt" />
       </list>
     </option>
   </component>
@@ -291,6 +243,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -304,7 +257,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -460,5 +413,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/testerClass.java" />
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day3/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
