@@ -1,6 +1,5 @@
 var count = 0;
 var sides, jsonOBJ;
-var currentSlideInterval = 1;
 
 //logic for input comparison to json object
 //if (AccountsObject[0].username == )

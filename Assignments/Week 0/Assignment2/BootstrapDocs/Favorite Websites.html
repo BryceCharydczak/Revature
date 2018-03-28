@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <meta charset="UTF-8">
-    <title>Favorite Websites</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 </head>
 <body>
+
+
 
 <nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/homepage.html">Website Name</a>
+            <a class="navbar-brand" href="/homepage.html">Lets Fly!</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="Login Page.html">Login</a></li>
@@ -28,45 +36,35 @@
         </ul>
     </div>
 </nav>
-<div class="container">
-<h2 align = "center">Great Resources for safe and legal air-travel</h2>
-<img src="Images/1200px-Transportation_Security_Administration_Logo.svg.png" width="25%" height="25%" class="center">
-<form action="https://www.tsa.gov/">
-    <p>
-        Transportation Security Administration is the most important link here because these are the people that you will have direct contact with prior to flying.
+<div class = "jumbotron jumbotron-fluid">
+    <div class="container" align="center">
+        <h1>
+            Helpful Websites
+        </h1>
         <br>
-        TSA is responsible for making sure that every person is transporting only legal and ethically sound materials and devices through airport terminals.
+        <a href="https://www.tsa.gov/"><img src="Images/1200px-Transportation_Security_Administration_Logo.svg.png" /></a>        <p>TSA</p>
+        <p>Transportation Security Administration is the most important link here because these are the people that you will have direct contact with prior to flying.
+        </p><br>
+        <p>TSA is responsible for making sure that every person is transporting only legal and ethically sound materials and devices through airport terminals.
+        </p>
 
-    <br>
-    <input type="submit">
-    </p>
-</form>
-<img src="Images/download.png" class="enter">
-<form action="https://www.dhs.gov/aviation-security" class="center">
-    <p>
-        The Department of Homeland Security is an excellent resource for understanding legal items for safe air travel.
-        <br>
-        This website has a frequently asked questions section that will enable you to answer some questions you may have prior to travel.
-    <br>
-    <input type="submit">
-    </p>
-</form>
+        <a href="https://www.dhs.gov/aviation-security"><img src="Images/download.png" /></a>
+        <p>DHS</p>
+        <p>The Department of Homeland Security is an excellent resource for understanding legal items for safe air travel.
+        </p><br>
+        <p>This website has a frequently asked questions section that will enable you to answer some questions you may have prior to travel.
+        </p>
 
-<img src="Images/1200px-Wikipedia-logo-v2-en.svg.png" width="15%" height="15%" class="center">
+        <a href="https://en.wikipedia.org/wiki/Airport_security"><img src="Images/1200px-Wikipedia-logo-v2-en.svg.png" /></a>
+        <p>Wikipedia</p>
+        <p>Wikipedia is a good resource for understanding what will be conducted during your time in the airport.
+        </p><br>
+        <p>Wikipedia does an excellent job of highlighting the different technologies that are present in a airport.
+        </p>
 
-
-<form action="https://en.wikipedia.org/wiki/Airport_security">
-    <p>
-        Wikipedia is a good resource for understanding what will be conducted during your time in the airport.
-        <br>
-        Wikipedia does an excellent job of highlighting the different technologies that are present in a airport.
-        <br>
-        <input type="submit">
-
-    </p>
-
-</form>
+    </div>
 </div>
-
+<script src="Flashcards.js"></script>
+<script src="Data.json"></script>
 </body>
 </html>

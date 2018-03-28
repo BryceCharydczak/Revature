@@ -1,0 +1,38 @@
+JAVA
+
+- portable
+- OOP
+- robust
+- well documented by Oracle
+- type safe
+- widely used, very popular
+
+
+JVM = Java virtual machine - interprets compiled bytecode
+JRE = Java runtime environment - JVM + important libraries.
+JDK = Java Development kit - contains compiler
+
+
+
+Object = most basic unit of programmability.
+
+
+
+Variables
+Methods
+ - Both have static and instance components of each.
+
+
+
+
+ Private = accessibility limited to only within the class
+ Protected = only subclasses can access the class and its methods
+
+
+
+ block scope - in a for loop, the "int i" variable is contained within the block scope of the loop
+
+
+ Constructors = just a way to instantiate the class object and initialize the variables of the object.
+
+

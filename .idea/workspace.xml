@@ -2,6 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML CSS Assignment.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Favorite Websites.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/1200px-Transportation_Security_Administration_Logo.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/1200px-Wikipedia-logo-v2-en.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Images/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Login Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/Register Page" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment1/HTML Pages/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/Bootstrap Assignment.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Favorite Websites.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/1200px-Transportation_Security_Administration_Logo.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/1200px-Wikipedia-logo-v2-en.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Images/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Login Page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/Register Page" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/BootstrapDocs/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment2/tester.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/Assignment3/Index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/AboutMe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/FavoriteWeb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Flashcards.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Flashcards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/FlashcardsSingle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/GitHub.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/HackerRank.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/Data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/Flashcards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/Page Title_files/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/cherry.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/plantstore-flowering-cherry-blossom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Week 1/FlashcardProject/youtube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/Day1Notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/HTMLDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day1/stylingDemo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/Javascript.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/Schedule.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/event-prop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/event-prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/fibonacciButton.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day2/todo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/BootStrapTable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/ajax-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day3/ajax-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day4/2truths1lie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Day4/Software Development Life Cycles.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html" afterPath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page" afterPath="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 0/FlashcardProject/Flashcards.js" afterPath="$PROJECT_DIR$/Assignments/Week 0/FlashcardProject/Flashcards.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,38 +74,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BootstrapDemo.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Javascript.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Schedule.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/Day2/Schedule.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,10 +112,15 @@
         <option value="$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page" />
         <option value="$PROJECT_DIR$/Assignments/Assignment2/tester.html" />
         <option value="$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html" />
+        <option value="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html" />
+        <option value="$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page" />
+        <option value="$PROJECT_DIR$/Notes/Week 1/Day1" />
+        <option value="$PROJECT_DIR$/Notes/Week 1/Day2/testerClass.java" />
+        <option value="$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="31" />
     <option name="width" value="1366" />
     <option name="height" value="737" />
@@ -108,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,26 +154,20 @@
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
-              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Day2" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -260,33 +290,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1366" height="737" extended-state="0" />
+    <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -297,79 +327,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/CSS Homework">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/HTML Demo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/style1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/March 19, 2018">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/CSS Homework.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -377,77 +335,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt">
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1887">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Day2/Schedule.txt">
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment1/HTML Pages/Register Page">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page">
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1507">
-          <caret line="127" column="43" lean-forward="false" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Login Page.html">
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" />
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/Schedule.txt" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/CSS Homework" />
+    <entry file="file://$PROJECT_DIR$/Notes/HTML Demo" />
+    <entry file="file://$PROJECT_DIR$/Notes/style1" />
+    <entry file="file://$PROJECT_DIR$/Notes/March 19, 2018" />
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Favorite Websites.html" />
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Register Page" />
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/CSS Homework.css" />
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/Login Page.html" />
+    <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/script.js" />
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/Schedule.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/Day2/BootstrapDemo.html" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment1/HTML Pages/Register Page" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Register Page" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Login Page.html" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/tester.html" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html" />
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/HelloWorld.java" />
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment1/HTML Pages/Register Page">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment1/HTML Pages/Login Page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Login Page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Favorite Websites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/FlashcardProject/FavoriteWeb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment1/HTML Pages/Favorite Websites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Week 0/Assignment2/BootstrapDocs/Register Page">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="111" column="23" lean-forward="false" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/InClassNotes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/tester.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Assignment2/BootstrapDocs/Favorite Websites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/testerClass.java" />
   </component>
 </project>

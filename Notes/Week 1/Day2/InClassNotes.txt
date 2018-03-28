@@ -1,0 +1,35 @@
+4 Pillars of OOP
+
+Inheritence - subclasses have states and behaviors of superclass
+Polymorphism - entities can take on many different forms
+    - method override - just replaces original functionality of method
+    - method overload - remakes method with more parameters or functionality
+    - covarient type - Animal cat = new Cat();
+Encapsulation - wrapping of methods and objects in order to "data hide".
+Abstraction - remove certain aspects of the implemented model
+    - abstract classes
+    - interfaces
+
+
+
+
+Ternary Operators:
+
+<condition>?<ifTrue>:<ifFalse>;
+
+
+Class execution priority:
+static instance variables
+instance variables
+constructor
+main
+
+
+&& || (short circuit operators, end the conditional when able)
+
+
+JVM <Java Virtual Machine>
+JRE <Java Runtime Environment>
+JDK = JRE + compiler <Java Development Kit>
+
+
