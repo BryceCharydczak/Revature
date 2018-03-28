@@ -1,0 +1,11 @@
+This is my text file
+I will use a BufferedReader object to read from it
+
+can read either with read() or readLine()
+
+Need to make sure to catch all IOExceptions as necessary
+
+test
+test1
+test11
+test111

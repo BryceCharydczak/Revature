@@ -63,4 +63,15 @@ Reader - read character data from streams
 Writer - write character streams to file
 
 
+Java Beans
+    - has private instance variables
+    - overloaded constructors
+    - getters and setters
+    - .equals() and .toString() overrided
+
+POJO
+    - Extend prespecified classes
+    - implement prespecified interface
+    - contain prespecified annotations
+
 
