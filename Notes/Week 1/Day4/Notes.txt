@@ -1,0 +1,63 @@
+Overloaded method use:
+
+
+Explicit casting = (long), (int), etc
+Implicit casting = what the JVM does to optimize memory storage, casting variables automatically.
+
+
+Banking assignment:
+no negative balances
+if someone withdraws money while having none, give them an error
+persist all users to a text file
+when registering they need to not be taking an already taken name
+
+
+Iterable API
+- Collection Framework
+    - Set (contains no duplicate)
+        - HashSet
+            - Linked HashSet = no duplicates, maintains insertion order because it's linked.
+        - SortedSet = sort all elements in natural order, alphanumerically
+            - NavigableSet
+                - TreeSet
+    - List = enforce an order, get()/set()
+        - ArrayList
+        - Vector - Thread safe ArrayList, all methods are synchronized
+            - Stack
+        - LinkedList
+    - Queue
+        - LinkedList
+        - PriorityQueue
+        - BlockingQueue
+            - PriorityBlockingQueue
+
+
+Map:
+    - HashMap
+    - HashTable = threadsafe, all methods are synchronized
+    - SortedMap
+        - TreeMap
+
+
+
+
+MULTITHREADING!!!!!<3
+
+Thread - a single path of execution
+daemon thread - a special thread that can run asynchronously from other threads
+thread safe - each thread will interact with object without conflicting with other threads.
+    - Synchronization - only one thread can use this at a time
+
+
+How to create a thread:
+1)  Extend the thread class.
+    - also override the run() method
+2)  Implements Runnable.
+    - override run() method
+
+Thread States:
+New
+Running
+Waiting
+Timed_Waiting
+Terminated

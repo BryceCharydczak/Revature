@@ -75,3 +75,12 @@ POJO
     - contain prespecified annotations
 
 
+In Summary:
+- reflection
+- garbage collection
+- variable shadowing(inheritance)
+- interfaces + abstract class(abstraction
+- method overloading/overriding(polymorphism)
+- covariance(polymorphism)
+- basic IO
+- file IO
