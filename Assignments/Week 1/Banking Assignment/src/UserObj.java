@@ -1,71 +1,57 @@
-public class UserObj implements Comparable {
-    static boolean isLoggedIn = false;
-    static String username;
-    static String password;
-    static String firstName;
-    static String lastName;
-    static int SSN;
+public class UserObj {
+    private String username;
+    private boolean isLoggedIn = false;
+    private String password;
+    private String firstName;
+    private String lastName;
+    private int balance;
 
-    public static int getBalance() {
-        return balance;
-    }
-
-    public static void setBalance(int balance) {
-        UserObj.balance = balance;
-    }
-
-    static int balance;
-
-    public static boolean isIsLoggedIn() {
-        return isLoggedIn;
-    }
-
-    public static void setIsLoggedIn(boolean isLoggedIn) {
-        UserObj.isLoggedIn = isLoggedIn;
-    }
-
-    public static String getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public static void setUsername(String username) {
-        UserObj.username = username;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public static String getPassword() {
+    public boolean isLoggedIn() {
+        return isLoggedIn;
+    }
+
+    public void setLoggedIn(boolean loggedIn) {
+        isLoggedIn = loggedIn;
+    }
+
+    public String getPassword() {
         return password;
     }
 
-    public static void setPassword(String password) {
-        UserObj.password = password;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public static String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    public static void setFirstName(String firstName) {
-        UserObj.firstName = firstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public static String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    public static void setLastName(String lastName) {
-        UserObj.lastName = lastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public static int getSSN() {
-        return SSN;
+
+    public int getBalance() {
+        return balance;
     }
 
-    public static void setSSN(int SSN) {
-        UserObj.SSN = SSN;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        return 0;
+    public void setBalance(int balance) {
+        this.balance = balance;
     }
 }

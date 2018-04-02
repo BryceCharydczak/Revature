@@ -1,0 +1,73 @@
+Maven
+    - Build management tool
+        clean
+        compiling
+        testing
+        deploying
+*Going to be using to manage dependencies.
+
+
+Project Object Model
+    - POM.xml
+
+JUNIT:
+    - Unit testing
+    - method testing
+
+    @Ignore
+    @Test
+    @BeforeClass
+    @Before
+    @After
+    @AfterClass
+
+
+    Asserts:
+    True
+    False
+    Null
+    NotNull
+
+
+What is Java?
+Strictly Typed Language
+Converts down to bytecode
+Write Once run anywhere
+
+How an we override a method by changing the return type in its method signature?
+the return type can be the same, or a subclass return type
+
+What is OOP?
+4 pillars
+
+six different thread states?
+new
+runnable
+blocked
+waiting
+timed waiting
+terminated
+
+What objects are used in the process of serialization?
+FileInput Stream
+FileObject Output Stream
+
+What is functional programming?
+The use of dot operators to avoid mutations in OOP design
+
+Primitive datatypes?
+Are stored in the stack
+
+How can we override a method by changing the throws clause in its method signature?
+More specific of an exception needs to be thrown
+
+what is the difference between checked and unchecked exceptions?
+Unchecked - runtime exception
+checked - compile time
+
+Multiple ineritence:
+Diamond Problem, no multiple inheritences besides multiple interfaces.
+   p
+  / \
+ c   c
+  \g/
