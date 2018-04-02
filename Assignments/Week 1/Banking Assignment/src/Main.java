@@ -1,9 +1,10 @@
 import javax.jws.soap.SOAPBinding;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         //setting of current user to distinguish whose information is needed to be assessed.
@@ -14,18 +15,33 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
 
-        boolean yes = true;
-        String input="";
-        screenNav();
-            switch (scan.next()) {
+        while (true) {
+            try {
+                TimeUnit.SECONDS.sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            screenNav();
+            String input;
+            switch (input = scan.next()) {
 
                 case "1":
                     if (currentUsr != null) {
                         System.out.println("You are already logged in, please logout to proceed!");
                     } else {
-                        String userPlusPass = Login();
-                        currentUsr = accountCollection.get(userPlusPass);
-                        accountCollection.remove(userPlusPass);
+                        String userPlusPass;
+                        userPlusPass = Login();
+
+                        try {
+                            currentUsr = accountCollection.get(userPlusPass);
+                            accountCollection.remove(userPlusPass);
+                            System.out.println("Welcome back " + currentUsr.getFirstName() + " " + currentUsr.getLastName() + "!");
+
+                        } catch (NullPointerException ex) {
+                            System.out.println("This account does not exist");
+                            break;
+                        }
+
                     }
                     break;
                 case "2":
@@ -40,11 +56,12 @@ public class Main {
 
                     break;
                 case "3":
-                    deposit();
+                    int depo = deposit();
+                    currentUsr.setBalance(currentUsr.getBalance()+depo);
                     break;
                 case "4":
-
-                    withdraw();
+                    int amount = withdraw();
+                    currentUsr.setBalance(currentUsr.getBalance()-amount);
                     break;
                 case "5":
                     viewBalance(currentUsr);
@@ -53,17 +70,14 @@ public class Main {
                 //Logout
                 case "6":
                     currentUsr = null;
+
+                    System.out.println("You have successfully logged out!");
                     break;
+
+
             }
         }
-
-
-
-
-
-
-
-
+    }
 
 
     public static String Login(){
@@ -72,7 +86,8 @@ public class Main {
         String userName = s.next();
         System.out.println("Please enter your password:");
         String password = s.next();
-        s.close();
+        //s.close();
+
         return (userName+password);
     }
     public static UserObj register(){
@@ -91,8 +106,8 @@ public class Main {
         usr.setLastName(last);
         usr.setUsername(user);
         usr.setPassword(pass);
-        s.close();
-        System.out.println("Successful account creation");
+        //s.close();
+        System.out.println("Successful account creation. Welcome to Bryce's Beastly Banking!");
         return usr;
 
     }
@@ -102,7 +117,7 @@ public class Main {
             PrintWriter out = new PrintWriter(bw))
         {
 
-                out.println("\n" + usr.getFirstName() + " " +
+                out.println(usr.getFirstName() + " " +
                 usr.getLastName() + " " +
                 usr.getUsername() + " " +
                 usr.getPassword() + " " +
@@ -132,7 +147,7 @@ public class Main {
             System.out.println("Your funds have been added to your account!");
 
         }
-        s.close();
+        //s.close();
         return(amount);
     }
 
@@ -143,8 +158,16 @@ public class Main {
             System.out.println(usr.getBalance());
         }
     }
-    public static void withdraw(){
+    public static int withdraw(){
+        Scanner s = new Scanner(System.in);
+        int x = 0;
+        try{
+            x = s.nextInt();
+        } catch(Exception e) {
+            System.out.println("Please enter a valid number.");
+        }
         System.out.println("The funds have been removed from your account.");
+        return x;
     }
     public static void screenNav(){
         System.out.println("===============================================================================");
