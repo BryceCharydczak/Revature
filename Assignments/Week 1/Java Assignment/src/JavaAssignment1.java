@@ -3,6 +3,8 @@ import java.io.*;
 
 public class JavaAssignment1 {
     public static void main(String [] args){
+        int n = 10;
+        System.out.println(nFactorial(n));
 /*
         //Q1 testing
         int[] test = {0,2,3,1,5};
@@ -76,7 +78,7 @@ public class JavaAssignment1 {
 
 */
         //Q12
-        enhancedForEven();
+        //enhancedForEven();
     }
 
     //Q1
@@ -136,7 +138,7 @@ public class JavaAssignment1 {
         String answer ="";
         char[] charArr = str.toCharArray();
 
-        for (int i = 0; i < idx; i++){
+        for (int i = 0; i < idx ; i++){
             answer+= charArr[i];
         }
         return answer;
@@ -232,7 +234,7 @@ public class JavaAssignment1 {
     }
 
     //Q11
-    public static
+    //public static
 
 
     //Q12 NOT DONE

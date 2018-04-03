@@ -1,4 +1,3 @@
-import javax.jws.soap.SOAPBinding;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -60,7 +59,7 @@ public class Main {
                     currentUsr.setBalance(currentUsr.getBalance()+depo);
                     break;
                 case "4":
-                    int amount = withdraw();
+                    int amount = withdraw(currentUsr);
                     currentUsr.setBalance(currentUsr.getBalance()-amount);
                     break;
                 case "5":
@@ -69,8 +68,8 @@ public class Main {
 
                 //Logout
                 case "6":
+                    writeToFile(currentUsr);
                     currentUsr = null;
-
                     System.out.println("You have successfully logged out!");
                     break;
 
@@ -79,6 +78,16 @@ public class Main {
         }
     }
 
+    public static void removeLine(UserObj usr){
+        try(FileWriter fw = new FileWriter("Accounts.txt", false);
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter out = new PrintWriter(bw))
+        {
+            out.println();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 
     public static String Login(){
         Scanner s = new Scanner(System.in);
@@ -111,7 +120,9 @@ public class Main {
         return usr;
 
     }
+
     public static void writeToFile(UserObj usr) {
+
         try(FileWriter fw = new FileWriter("Accounts.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter out = new PrintWriter(bw))
@@ -123,7 +134,6 @@ public class Main {
                 usr.getPassword() + " " +
                 usr.getBalance());
                 //more code
-
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -155,10 +165,11 @@ public class Main {
         if (usr == null){
             System.out.println("You are not logged in.");
         } else {
-            System.out.println(usr.getBalance());
+            System.out.println("Your current balance is $"+usr.getBalance());
         }
     }
-    public static int withdraw(){
+    public static int withdraw(UserObj usr){
+        System.out.println("Please specify how much money you will be withdrawing:");
         Scanner s = new Scanner(System.in);
         int x = 0;
         try{
@@ -166,7 +177,13 @@ public class Main {
         } catch(Exception e) {
             System.out.println("Please enter a valid number.");
         }
-        System.out.println("The funds have been removed from your account.");
+        if (x > usr.getBalance()){
+            System.out.println("The max you can withdraw is " + usr.getBalance() + ". Please try again.");
+
+        } else {
+            System.out.println("The funds have been removed from your account.");
+
+        }
         return x;
     }
     public static void screenNav(){
@@ -183,3 +200,52 @@ public class Main {
         System.out.println("6 -> Logout");
     }
 }
+
+/*
+===============================================================================
+== BRYCE'S BEASTLY BANKING, WHERE YOUR MONEY IS OUR #1 CONCERN, GIMME GIMME  ==
+===============================================================================
+Please type and press 'enter' for one of the following numbers:
+
+1 -> Login
+2 -> Register
+3 -> Deposit
+4 -> Withdraw
+5 -> View Balance
+6 -> Logout
+2
+Please enter your first name:
+Carolyn
+Please enter your last name:
+Rehm
+Please enter your username:
+crehm
+Please enter your password:
+password
+Successful account creation. Welcome to Bryce's Beastly Banking!
+===============================================================================
+== BRYCE'S BEASTLY BANKING, WHERE YOUR MONEY IS OUR #1 CONCERN, GIMME GIMME  ==
+===============================================================================
+Please type and press 'enter' for one of the following numbers:
+
+1 -> Login
+2 -> Register
+3 -> Deposit
+4 -> Withdraw
+5 -> View Balance
+6 -> Logout
+5
+Your current balance is $0
+===============================================================================
+== BRYCE'S BEASTLY BANKING, WHERE YOUR MONEY IS OUR #1 CONCERN, GIMME GIMME  ==
+===============================================================================
+Please type and press 'enter' for one of the following numbers:
+
+1 -> Login
+2 -> Register
+3 -> Deposit
+4 -> Withdraw
+5 -> View Balance
+6 -> Logout
+
+ */

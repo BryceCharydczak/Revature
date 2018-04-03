@@ -1,0 +1,101 @@
+RELATIONAL DATABASES
+
+Primary Key - Unique, non null field which you can use to identify a specific record
+Candidate Keys - a column in the table that could uniquely identify a record (primary key)
+Composite Key - using more than one field as a key
+
+Datatypes:
+NUMBER
+INTEGER
+VARCHAR
+LOB
+DATE+TIME
+
+Relational database mock up:
+
+Customers
+    CustomerID Integer (primary key)
+    Name VarChar2(50)
+    Address VarChar2(100)
+Invoices
+    CustomerID Integer (foreign key -> CustomerID)
+    Amount Integer
+    SalesRepID Integer (foreign key -> SalesRepID)
+    InvoiceID Integer (primary key)
+SalesReps
+    SalesRepID Integer (primary key)
+    Name VarChar2(50)
+    Department VarChar2(25)
+
+
+
+Referential Integrity
+    - relationships remain consistent
+    - can't make references to fields/ records that don't exist
+    - deleting a referenced value will be reflected by the records referencing it
+
+Domain Integrity
+    - having consistent fields datatypes
+    - having your data within the defined constraints/types
+
+
+SQL - Structured query language
+Data Definition Language - define the structure of our database entities
+    - CREATE TABLE TABLE_NAME(
+        COLUMN_NAME DATA_TYPE,
+
+    );
+
+    ALTER
+        - add additional columns
+        - remove columns
+        - add/drop constraints
+Data Manipulation Language - interacting with records in a previously defined table.
+    INSERT INTO TABLE(COLUMN1VALUE, COLUMN2VALUE)
+
+Data Query Language
+    SELECT [COLUMN_NAME}(*)
+        FROM [TABLE_NAME]
+        WHERE[CONDITION]
+        ORDER BY [COLUMN_NAME]
+
+Data Control Language
+Transaction Control Language - designate specific transaction(one unit of work on a database)
+    COMMIT - finalize the data and saved permanently in our database
+    ROLLBACK - takes database back to previous savepoint or commit
+    SAVEPOINT - sets a point to roll back to
+
+    Transaction Properties:
+        Atomicity - if part of a transaction fails, it all fails, the entire transaction fails.
+        Consistency - standards nd constraints in your database are still valid after your transaction occurs
+        Isolation - two transaction will not interfere with one another (concurrent transactions)
+        Durability - commits are final
+
+
+
+Aggregate Functions:
+1 value output for a column
+COUNT
+MIN
+MAX
+AVG
+SUM
+
+
+Constraints:
+UNIQUE
+NOT NULL
+FOREIGN KEY
+CHECK
+DEFAULT
+
+
+
+JUNCTION TABLE - an intermediary table that holds pairs of foreign keys in order to represent many to many relationships
+
+CREATE TABLE DEPARTMENT(
+    DPT_ID NUMBER(5) CONSTRAINT PK_DEPARTMENT PRIMARY KEY,
+    DPT_NAME VARCHAR2(50),
+    MONTHLY_BUDGET NUMBER(5,2)
+);
+
