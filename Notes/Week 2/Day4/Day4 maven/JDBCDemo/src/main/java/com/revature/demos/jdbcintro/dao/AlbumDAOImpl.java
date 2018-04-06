@@ -92,8 +92,33 @@ public class AlbumDAOImpl implements AlbumDAO {
     }
 
     @Override
-    public Album addAlbum() {
-        return null;
+    public Album addAlbum(Album newAlbum) {
+        Album album = new Album();
+        try(Connection conn = ConnectionFactory.getInstance().getConnection()){
+            conn.setAutoCommit(false);
+            String sql = "INSERT INTO album (title, artistid) VALUES ";
+            String[] keys = new String [1];
+            keys[0] = "artistid";
+            PreparedStatement pstmt = conn.prepareStatement(sql, keys);
+            pstmt.setString(1, newAlbum.getTitle());
+            int rowsUpdated = pstmt.executeUpdate();
+            ResultSet rs = pstmt.getGeneratedKeys();
+
+            if (rowsUpdated != 0) {
+                while (rs.next()) {
+                    album.setArtistid(rs.getInt("artistid"));
+                    album.setAlbumid(rs.getInt("albumid"));
+                    album.setTitle(rs.getString("title"));
+
+                }
+                album.setTitle(newAlbum.getTitle());
+                conn.commit();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return album;
+
     }
 
     @Override
