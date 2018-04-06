@@ -1,5 +1,8 @@
 package com.revature.demos.jdbcintro.util;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -23,7 +26,10 @@ public class ConnectionFactory {
 	
 	public Connection getConnection() {
 		Connection conn = null;
+//		Properties prop = new Properties();
 		try {
+
+
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@//revaturefirstdb.csasbuixtsrr.us-east-2.rds.amazonaws.com:1521/ORCL", "chinook", "p4ssw0rd");
 		} catch (ClassNotFoundException cfne) {

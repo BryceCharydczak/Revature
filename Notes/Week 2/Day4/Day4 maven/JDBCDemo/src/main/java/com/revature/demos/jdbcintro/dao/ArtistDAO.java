@@ -8,12 +8,17 @@ import com.revature.demos.jdbcintro.pojos.Artist;
 public interface ArtistDAO {
 
 	public ArrayList<Artist> getAllArtists();
-	public Artist addArtist(String name);
+	public Artist addArtist(Artist newArtist);
 	public Artist getArtistByID(int id);
 	public ArrayList<Artist> getArtistByName(String name);
-	public Artist updateArtist(int id, String newName);
+	public boolean updateArtist(Artist updatedArtist);
+	public boolean removeArtistByID(Artist artist);
+	public boolean removeArtistByName(Artist artist);
+	public boolean removeArtistsById(ArrayList<Artist> artists);
 	
-}
+	
+	}
+
 /*
  * create sequence artist_seq
  * minvalue 1
