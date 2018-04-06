@@ -1,0 +1,91 @@
+Transaction Phenomena - problems that can occur with concurrent transactions
+
+1) Dirty Read - transaction reads uncommitted data
+2) Non Repeatable Read - data is changed during a transaction and the original data can no longer be accessed
+    - One transaction tries to select data that another transaction is overwriting.
+3) Phantom Read - a second transaction adds or removes data before the first is complete
+
+Transaction Isolation Levels:
+Read uncommitted
+    1,2,3
+Read committed
+    2,3
+Repeatable read
+    3
+Serializable
+
+
+
+SET OPERATORS:
+UNION (and UNION ALL)
+INTERSECTS
+MINUS
+
+
+
+
+NORMALIZATION:
+    - a way to reduce redundancy
+    - prevents data anomaly's
+
+1) Primary key uniquely identifies every row
+    - atomic values
+    - no duplicate rows
+2) Meet conditions of 1st normalization
+    + no partial dependencies
+3) Meet conditions of 2nd normalization feature
+    + transitive dependencies - one column depends
+
+(where ever there is repetition, look to normalize the table)
+
+
+
+
+Primary key is the key necessary to uniquely identify every single row in the table
+
+Partial Dependencies need to be put in their own table  with reference to the primary key of the original table
+
+
+
+
+
+PL/SQL
+Procedural language extension of SQL
+    pros:
+    - Portability
+    - Simplicity
+    - Performance
+
+    *Reduces network calls by storing functions in database that can be laer called on by java application
+
+
+Block Structure:
+    DECLARE (optional)
+    BEGIN (required)
+        Program Logic (required)
+    EXCEPTION (optional)
+    END (required)
+
+
+
+
+
+
+Stored Procedures:
+    defines a task
+    optionally returns a value
+    optionally have IN, IN/OUT
+    supports DML & DDL ops
+    can fire triggers
+    cannot be used within clauses
+    can handle exceptions
+    can call stored functions
+
+Stored Functions:
+    calculate a value
+    MUST return a value
+    only uses IN and OUT parameters
+    does not support DML or DDL ops.
+    cannot fire triggers
+    can be used within SELECT, WHERE, HAVING, etc clauses
+    can't handle an exception

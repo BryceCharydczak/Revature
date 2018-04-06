@@ -1,0 +1,97 @@
+JDBC API - Java Database Connectivity Application Programming Interface
+    - allows our java app to communicate with our database
+    - databases require specific implementations for interfacing so a DB driver is necessary for JDBC
+        - Oracle Driver
+        - MySQL Driver
+
+    Types of JDBC drivers:
+
+    1) JDBC-ODBC Driver    (open database connectivity)
+            Java -> JDBC -> ODBC -> Vendor Library -> DB
+
+    2) Native API Driver
+            Java -> JDBC -> Vendor Library -> DB
+
+    3) Network Protocol Driver
+            Java -> JDBC -> || MiddleWare -> DB
+
+    4) Thin Driver
+            Java -> JDBC -> || DB
+
+
+
+
+    + Driver Manager (class) - responsible for managing driver object
+        - public static Connection getConnection(String url, String username, String password)
+            throws SQLException
+
+
+    + Connection (interface) - represents a connection or session to the DB
+        - public Statement createStatement(String sql)
+            throws SQLException
+        - public PreparedStatement prepareStatement(String sql)
+            throws SQLException
+        - public CallableStatement prepareCAll(String sql)
+            throws SQLException
+
+
+    + Statement (interface) - used to execute SQL scripts on the DB
+        - public ResultSet executeQuery()
+            throws SQLException
+        - public int executeUpdate()
+            throws SQLException
+
+
+    + PreparedStatement (interface) - a safer version of "Statement", used to execute SQL queries, also is parameterized
+        * Resilient to SQL Injections
+        - public ResultSet executeQuery()
+                    throws SQLException
+        - public int executeUpdate()
+                    throws SQLException
+
+
+    + CallableStatement (interface) - used to execute stored procedures/functions on the DB, parameterized
+        * Resilient to SQL Injections
+
+
+    + ResultSet (interface) - represents a result set returned from some SQL statement
+        (maintains a cursor which initially starts above the first record of the result set)
+
+         .next throws SQLException
+         .hasNext
+
+
+
+
+
+--- Steps to connect a Java App to the DB ---
+
+1) Load + register the Driver Object
+    Class.forName("oracle.jdbc.driver.OracleDriver");
+
+2) Create a connection
+    Connection con = DriverManager.getConnection("ur","username","password");
+
+3) Create a Statement/PreparedStatement/CallableStatement
+    Statement stmt = conn.createStatement(<SomeSortOfSQLString>);
+    PreparedStatement pstmt = conn.prepareStatement(<SomeSortOfSQLString>);
+    CallableStatement cstmt = conn.prepareCall(<SomeSortOfSQLString>);
+
+4) Execute our statement
+    ResultSet rs = stmt.executeQuery();
+    int rowsUpdated = pstmt.executeUpdate();
+
+5) Do something with the resultset
+    while (rs.hasNext()){
+        //do stuff
+    }
+
+6) Close resources
+    rs.close();
+    stmt.close();
+    conn.close();
+
+
+
+///Try With Resources///
+- Resources must implement the AutoCloseable interface

@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 2/Day2/Notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/out/production/Banking Assignment/Main.class" afterPath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/out/production/Banking Assignment/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/out/production/Java Assignment/JavaAssignment1.class" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/out/production/Java Assignment/JavaAssignment1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 2/Day3/Notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Week 2/Day4/Notes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/target/test-classes/Question6.class" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/target/test-classes/Question6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Associate Automation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Assignments/Week 1/Associate Automation/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/Accounts.txt" afterPath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/Accounts.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/src/Main.java" afterPath="$PROJECT_DIR$/Assignments/Week 1/Banking Assignment/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/src/JavaAssignment1.java" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/src/JavaAssignment1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/src/test/java/Question6.java" afterPath="$PROJECT_DIR$/Assignments/Week 1/Java Assignment/JUnitTesting/src/test/java/Question6.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day2/Notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="3" lean-forward="false" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day3/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day4/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="96" column="54" lean-forward="false" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -129,6 +147,8 @@
         <option value="$PROJECT_DIR$/Notes/Week 1/Day4/Notes.txt" />
         <option value="$PROJECT_DIR$/Notes/Week 1/Day5/Notes.txt" />
         <option value="$PROJECT_DIR$/Notes/Week 2/Day2/Notes.txt" />
+        <option value="$PROJECT_DIR$/Notes/Week 2/Day3/Notes.txt" />
+        <option value="$PROJECT_DIR$/Notes/Week 2/Day4/Notes.txt" />
       </list>
     </option>
   </component>
@@ -155,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,16 +273,22 @@
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 2" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
+    <frame x="0" y="31" width="1368" height="692" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -441,22 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day3/Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day4/Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="92" lean-forward="false" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -694,8 +705,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day2/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="3" lean-forward="false" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day3/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 2/Day4/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="96" column="54" lean-forward="false" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
           <folding />
         </state>
       </provider>
