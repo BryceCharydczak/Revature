@@ -36,7 +36,7 @@ public class AlbumDAOImpl implements AlbumDAO {
         try(Connection conn = ConnectionFactory.getInstance().getConnection()){
             String sql = "SELECT * FROM album WHERE title = ?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(2, Title);
+            pstmt.setString(1, Title);
             ResultSet rs = pstmt.executeQuery();
             while(rs.next()){
                 album.setTitle(Title);
@@ -96,7 +96,7 @@ public class AlbumDAOImpl implements AlbumDAO {
         Album album = new Album();
         try(Connection conn = ConnectionFactory.getInstance().getConnection()){
             conn.setAutoCommit(false);
-            String sql = "INSERT INTO album (title, artistid) VALUES ";
+            String sql = "INSERT INTO album (title, artistid) VALUES (?)";
             String[] keys = new String [1];
             keys[0] = "artistid";
             PreparedStatement pstmt = conn.prepareStatement(sql, keys);

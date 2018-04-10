@@ -27,4 +27,3 @@ public interface ArtistDAO {
  * start with 276;
  */
 
-*/
