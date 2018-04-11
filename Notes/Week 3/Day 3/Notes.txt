@@ -1,0 +1,31 @@
+JAVASCRIPT
+
+Datatypes:
+
+Number:
+    Integers
+    Decimals
+    Infinity
+    NaN
+
+String
+    ""
+    ''
+
+Boolean
+    True/False
+
+Null
+
+Undefined
+
+
+Truthy:
+
+Falsy:
+    + 0
+    + ""
+    + false
+    + NaN
+    + undefined
+    + null
