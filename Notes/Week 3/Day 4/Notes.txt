@@ -1,0 +1,43 @@
+Event Propagation:
+
+When an event click is made on a child element, the user is essentially clicking the parent element.
+
+Typical tree of tag element in html:
+grandparent -> parent -> child
+
+
+List of event listener execution:
+bubbling = child -> parent -> grandparent
+capturing = grandparent -> parent -> child
+
+
+
+x.addEventListener("click", function(e){});
+
+e =
+event: click
+target: tag "<a id="myLine"></a>"
+current target
+event phase: bubbling/capturing
+
+
+AJAX
+
+Methods
+    new xmlhttprequest()
+    open(httpmethod, url) - server connection has been established
+    send()
+    setRequestHeader()
+    getResponseHeader()
+    abort()
+
+
+
+Properties
+    onreadystatechange
+    readystate
+        unsent
+        opened
+        headers_recieved
+        loading
+        done
