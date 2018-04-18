@@ -1,0 +1,23 @@
+Session Management:
+
+    Cookies:
+        - name/value pairs stored in the browser
+        - can only store text
+        - simple to use but can be disabled by user
+    Append URL:
+        - not secure
+        - information always visible to user
+        - can't be disabled
+        - don't require form submission
+    Hidden Form Fields:
+        - also can't be disabled
+        - requires form submission for all navigation in the application
+    Session Object (provided by Servlet API):
+        - request.getSession(?create);
+            + optional parameter "create", set to false means no session will be made if one already exists.
+
+
+Null vs Undefined
+
+Undefined = no object or values are set to the instantiated variable
+Null = object is assigned to instantiated variable but the object is set to null

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Notes/Week 4/Day2/Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Week 3/Day 3/Static Website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 3/Day 3/Static Website/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Week 3/Day 3/Static Website/src/JavaScript Assignment ROUND2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 3/Day 3/Static Website/src/JavaScript Assignment ROUND2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Week 0/Day4/Software Development Life Cycles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 0/Day4/Software Development Life Cycles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Week 3/Day 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 3/Day 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Week 3/Day5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 3/Day5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Week 4/Day2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 4/Day2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day2/Notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="1802">
               <caret line="106" column="63" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -76,7 +83,7 @@
       <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding>
                 <element signature="e#149#150#0" expanded="true" />
@@ -138,6 +145,7 @@
         <option value="$PROJECT_DIR$/Notes/Week 2/Day4/Notes.txt" />
         <option value="$PROJECT_DIR$/Notes/Week 3/Day 4/Notes.txt" />
         <option value="$PROJECT_DIR$/Notes/Week 4/Day2/Notes.txt" />
+        <option value="$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt" />
       </list>
     </option>
   </component>
@@ -160,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +197,24 @@
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -195,7 +222,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -203,7 +229,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Notes/Week 4/Day3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -315,11 +341,13 @@
       <workItem from="1523989814452" duration="174000" />
       <workItem from="1523992129988" duration="82000" />
       <workItem from="1523992649419" duration="221000" />
+      <workItem from="1524056944526" duration="818000" />
+      <workItem from="1524061863283" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15937000" />
+    <option name="totallyTimeSpent" value="16791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
@@ -332,8 +360,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -343,8 +371,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" />
@@ -361,21 +389,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day4/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -551,7 +564,7 @@
     <entry file="file://$PROJECT_DIR$/Notes/Week 1/Day2/testerClass.java" />
     <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="85">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
             <element signature="e#149#150#0" expanded="true" />
@@ -615,8 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day2/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="1802">
           <caret line="106" column="63" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
