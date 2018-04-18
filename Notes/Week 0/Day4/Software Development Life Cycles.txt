@@ -1,0 +1,2 @@
+- very limited documentation by comparison to waterfall, no deliverables.
+- dynamic specification so continual appending of functionality

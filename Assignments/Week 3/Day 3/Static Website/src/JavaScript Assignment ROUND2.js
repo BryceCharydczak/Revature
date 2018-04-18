@@ -120,7 +120,7 @@ function longestStr(array){
 /* 10. Area of a Triangle */
 
 function area(number1, number2, number3){
-
+    
 }
 
 /* 11. Similar Polygons */

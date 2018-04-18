@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e9566c0-d10c-4e45-ac84-4e74c19888af" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="7de86923-cc8d-4e9a-9dff-dd723fee253f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,50 +10,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WeatherApp.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/WeatherApp.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Software Development Life Cycles.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Software Development Life Cycles.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WeatherController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WeatherApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/WeatherApp.js" />
-        <option value="$PROJECT_DIR$/src/WeatherController.js" />
-        <option value="$PROJECT_DIR$/src/WeatherApp.html" />
+        <option value="$PROJECT_DIR$/Software Development Life Cycles.txt" />
       </list>
     </option>
   </component>
@@ -74,32 +45,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Day 4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day 4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day 4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day 4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Day4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Assignments/Week 3/Day5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -164,18 +129,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e9566c0-d10c-4e45-ac84-4e74c19888af" name="Default" comment="" />
-      <created>1523541200562</created>
+      <changelist id="7de86923-cc8d-4e9a-9dff-dd723fee253f" name="Default" comment="" />
+      <created>1523631773108</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523541200562</updated>
-      <workItem from="1523541208105" duration="626000" />
-      <workItem from="1523561267132" duration="5687000" />
+      <updated>1523631773108</updated>
+      <workItem from="1523631776605" duration="1451000" />
+      <workItem from="1523887257165" duration="572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6313000" />
+    <option name="totallyTimeSpent" value="2023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
@@ -205,9 +170,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,24 +182,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WeatherApp.js">
+    <entry file="file://$PROJECT_DIR$/Software Development Life Cycles.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherController.js">
+    <entry file="file://$PROJECT_DIR$/Software Development Life Cycles.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherApp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="17">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
         </state>
       </provider>
     </entry>

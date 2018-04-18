@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a3c9118-8746-4bee-b744-edb2e2b65482" name="Default" comment="" />
+    <list default="true" id="e0d661b9-70bf-48a0-b19c-ce281e9bac86" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,53 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main Page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main Page.html">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="3689">
+              <caret line="217" column="25" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameShowFunc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameShowFunc.js">
+      <file leaf-file-name="DOMManipulation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DOMManipulation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaScript Assignment ROUND2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaScript Assignment ROUND2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaScript Assignment ROUND2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaScript Assignment ROUND2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Names.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Names.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="258">
+              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,19 +35,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>earth</find>
+      <find>let</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Names.txt" />
-        <option value="$PROJECT_DIR$/src/Main Page.html" />
-        <option value="$PROJECT_DIR$/src/GameShowFunc.js" />
-        <option value="$PROJECT_DIR$/src/JavaScript Assignment ROUND2.html" />
-        <option value="$PROJECT_DIR$/src/JavaScript Assignment ROUND2.js" />
+        <option value="$PROJECT_DIR$/src/Index.html" />
+        <option value="$PROJECT_DIR$/src/DOMManipulation.js" />
       </list>
     </option>
   </component>
@@ -104,20 +74,20 @@
         <subPane>
           <expand>
             <path>
-              <item name="Static Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Static Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Static Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Static Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -125,7 +95,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Notes/Week 0/Day4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -190,19 +160,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a3c9118-8746-4bee-b744-edb2e2b65482" name="Default" comment="" />
-      <created>1523457845299</created>
+      <changelist id="e0d661b9-70bf-48a0-b19c-ce281e9bac86" name="Default" comment="" />
+      <created>1523632691359</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523457845299</updated>
-      <workItem from="1523457850765" duration="6966000" />
-      <workItem from="1523540172477" duration="959000" />
-      <workItem from="1523541272323" duration="17312000" />
+      <updated>1523632691359</updated>
+      <workItem from="1523632702426" duration="9447000" />
+      <workItem from="1523887842739" duration="3317000" />
+      <workItem from="1524019297921" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25237000" />
+    <option name="totallyTimeSpent" value="12980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
@@ -216,25 +186,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32881355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,98 +213,46 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main Page.html">
+    <entry file="file://$PROJECT_DIR$/src/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="3689">
+          <caret line="217" column="25" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Names.txt">
+    <entry file="file://$PROJECT_DIR$/src/DOMManipulation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="2210">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameShowFunc.js">
+    <entry file="file://$PROJECT_DIR$/src/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="3689">
+          <caret line="217" column="25" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main Page.html">
+    <entry file="file://$PROJECT_DIR$/src/DOMManipulation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Names.txt">
+    <entry file="file://$PROJECT_DIR$/src/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="3689">
+          <caret line="217" column="25" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameShowFunc.js">
+    <entry file="file://$PROJECT_DIR$/src/DOMManipulation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main Page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameShowFunc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaScript Assignment ROUND2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaScript Assignment ROUND2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
         </state>
       </provider>
     </entry>

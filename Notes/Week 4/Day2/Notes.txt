@@ -1,0 +1,139 @@
+SERVLETS
+
+- Java classes which can handle http requests/responses
+
+* servlet api - including a new dependency in the maven build
+    - (javax.servlet + javax.servlet.http)
+
+* deployment descriptor - xml file in our WEB-INF folder
+* .war files - java files + web resources
+* deploy resources on Tomcat Server
+
+
+HTTP: hypertext transfer protocol
+- protocol for communication on the web
+
+HTTP Methods:
+    GET
+        - parameters in url
+        - retrieving data
+    POST
+        - request body
+        - good for login
+    PUT
+    DELETE
+    CONNECT
+    TRACE
+    HEAD
+    OPTION
+
+
+SERVLET INTERFACE
+    Generic Servlet (abstract class)
+        HTTP Servlet (abstract class)
+
+        My Servlets will extend http servlet and implement request handler methods:
+
+            protected void doGet(HttpRequest req, HttpResonse resp) throws ServletException, IOException{
+                //handle Get Request
+            }
+
+            protected void doPost(HttpRequest req, HttpResonse resp) throws ServletException, IOException{
+                //handle Post Request
+            }
+
+
+Use Case of Servlet:
+1) client sends HTTP Request to the server.
+2) Server generates ServletRequest and ServletResponse. (POJOS)
+3) Server uses deployment discriptor(web.xml) to determine which servlet to send the request/response
+4) Servlet container instantiates the appropriate servlet.
+5) Servlet container is going to call the servlet's 'init()' method.
+6) Servlet container calls the servlet's service() method which is going to direct to the
+   appropriate handling method.
+7) Return a response to the client
+8) service() is called for any subsequent requests on that servlet.
+9) Web container is going to call the destroy() method on the given servlet.
+
+
+Servlet Lifecycle:
+    init()
+    service()
+    destroy()
+
+
+Deployment Descriptor (web.xml)
+    - Configuration for our servlets
+    - Servlet class names
+    - Servlet mapping
+    - Servlet context & servlet config
+
+    <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>com.revature.servlet.HelloWorldServlet</servlet-class>
+
+        <init-param>
+            <param-name>Message</param-name>
+            <param-value>Hi!</param-value
+        </init-param>
+    </servlet
+
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</...>
+        <url-pattern>/hello<url-pattern>
+
+    </servlet-mapping>
+
+
+
+Servlet Context:
+    - parameter available to all servlets declared in our web.xml
+
+    <context-param>
+        <param-name>FavoriteColor</param-name>
+        <param-value>Blue</param-value>
+    </context-param>
+
+
+
+Server creates ServletRequest and Servlet Response
+Requesthandlers take parameters of (HttpServletRequest, HttpServletResponse)
+
+
+public void service(ServletRequest req, ServletResponse resp){
+    //converts servlet request/response pair to HttpServlet request/response pair
+}
+public void service(HttpServletRequest req, HttpServletResponse resp){
+    //directs request to the appropriate request handler method
+}
+
+
+
+
+
+
+
+Thread Pool:
+Tomcat is Thread-Per-Request
+    - Tomcat checks whether there is an available thread (~ 200 threads available)
+        + if none are available, it will wait for one to become available.
+
+Reperesented by the "Executor" (org.apache.catalina.Executor)
+
+
+
+
+
+
+
+TWO WAYS TO MOVE BETWEEN RESOURCES:
+
+Forward:
+    - No URL change
+    - Same request/response pair
+    - Not clear to the user that anything has changed
+Redirect:
+    - New request/response pair
+    - browser recieves 300 status code
+    - response object's redirect method
+    - url change
