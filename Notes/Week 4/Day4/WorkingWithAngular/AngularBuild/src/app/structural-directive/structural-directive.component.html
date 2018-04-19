@@ -1,0 +1,52 @@
+<div *ngIf="condition">Condition is met</div>
+<div *ngIf="!condition">Condition is not met></div>
+<button (click)="changeCondition()">Change Condition</button>
+
+<hr>
+
+<h2>Second Method</h2>
+<div *ngIf="condition; then conditionTrue else conditionFalse"></div>
+<ng-template #conditionTrue>
+  Condition is met
+</ng-template>
+<ng-template #conditionFalse>
+  Condition is not met
+</ng-template>
+<button (click)="changeCondition()">Change Condition</button>
+
+
+<hr>
+
+
+<h2>People</h2>
+<ul>
+  <li *ngFor="let person of people; index as i">
+    {{i}} - {{person}}
+  </li>
+</ul>
+
+<h2>Monsters</h2>
+<ul>
+<li ngFor="let monster of monsters">
+  {{monster.name}}:{{monster.location}}
+</li>
+</ul>
+
+
+<hr>
+
+
+<h2>Day &amp; Night</h2>
+<div [ngSwitch]="time">
+  <span *ngSwitchCase="'night'">It's night time.
+  <button (click)="changeDay()">Change To Day</button>
+  </span>
+  <span *ngSwitchCase="'day'">It's day time.
+  <button (click)="changeNight()">Change To Night</button>
+  </span>
+  <span *ngSwitchDefault>Somewhere in between
+    <button (click)="changeDay()">Change To Day</button>
+    <button (click)="changeNight()">Change To Night</button>
+
+  </span>
+</div>

@@ -1,0 +1,86 @@
+ANGULAR
+
+
+*Webpack - build automation tool, similar to how maven automates testing.
+    - Minifies the angular code, shrinks it's size, obscures it from users.
+
+
+- Components:
+    - Encapsulates the data, the HTML markup and the logic of the view.
+    - The idea of components is to work on smaller more integral sections of the app that group up to make modules later.
+    Using a Component:
+        1. Create the Component
+        2. Register the component in a module
+        3. Add an element in the HTML markup
+
+ng g c structural-directive
+String interpolation = {{value}}
+
+
+Structural Directives:
+    ngFor
+    ngIf
+        - can be used to truly hide elements from DOM, user won't even get to see from inspecting page
+    ngSwitch (ngSwitchCase, ngSwitchDefault)
+
+Attribute Directives: allows the binding of styles to elements
+    ngModel
+    ngForm (ngSubmit)
+    ngStyle
+    ngClass
+
+
+
+Services: outsourcing some sort of info for automatic updating
+    HttpClient
+    forms
+    router
+    animate
+
+
+
+
+
+DATA BINDING
+    Interpolation
+        {{title}}
+    Property Binding
+        <img [src]="myValue";
+    Event Binding
+        <div (click)="doSomething()">
+            <button (click)=
+        </div>
+    Attribute Binding - setting attributes of a DOM object.
+    Class Binding
+    Style Binding
+    Two-way Binding
+
+
+
+app.component.html
+<courses></courses>
+
+
+app.module.ts
+import { CoursesComponent } from './components/courses.component';
+
+
+courses.component.ts
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'courses',
+    template: `
+    <h2>{{ title }}<h2>
+    <ul>
+        <li *ngFor="let course of courses">
+            {{ course }}
+        </li>
+    </ul>
+
+    `
+})
+export class CoursesComponent{
+    title = "List of Courses";
+    Courses = ["course1", "course2", "course3"];
+}

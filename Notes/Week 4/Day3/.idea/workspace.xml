@@ -11,11 +11,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestingType.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestingType.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestingType.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test2.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test2.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookClass.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacebookClass.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookMain.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FacebookMain.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Typescript Bank/User.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Typescript Bank/Account.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Typescript Bank/Main.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FrontEnd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontEnd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test4.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test4.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -29,20 +100,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -53,6 +116,14 @@
         <option value="$PROJECT_DIR$/Notes.txt" />
         <option value="$PROJECT_DIR$/src/TestingType.ts" />
         <option value="$PROJECT_DIR$/src/TestingType.js" />
+        <option value="$PROJECT_DIR$/src/Test4.ts" />
+        <option value="$PROJECT_DIR$/src/Test2.ts" />
+        <option value="$PROJECT_DIR$/src/FacebookMain.ts" />
+        <option value="$PROJECT_DIR$/src/FrontEnd.html" />
+        <option value="$PROJECT_DIR$/src/FacebookClass.ts" />
+        <option value="$PROJECT_DIR$/src/Typescript Bank/Main.ts" />
+        <option value="$PROJECT_DIR$/src/Typescript Bank/Account.ts" />
+        <option value="$PROJECT_DIR$/src/Typescript Bank/User.ts" />
       </list>
     </option>
   </component>
@@ -93,7 +164,7 @@
               <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Day3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestingType.ts" type="620a8d5e:NestingTreeNode" />
+              <item name="Typescript Bank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
@@ -113,10 +184,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -187,12 +259,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524058583203</updated>
       <workItem from="1524058586132" duration="142000" />
-      <workItem from="1524061904814" duration="3723000" />
+      <workItem from="1524061904814" duration="13437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3865000" />
+    <option name="totallyTimeSpent" value="13579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
@@ -257,7 +329,62 @@
     <entry file="file://$PROJECT_DIR$/src/TestingType.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test4.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontEnd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Typescript Bank/Main.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Typescript Bank/Account.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacebookClass.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacebookMain.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Typescript Bank/User.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
