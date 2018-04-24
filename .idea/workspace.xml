@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bb13ac-f0b5-41c1-b45a-99bb3987ff8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Notes/Week 4/Day5/Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/LoginPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/LoginPage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Week 4/Day 2/LoginPage/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Week 4/Day4/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Week 4/Day4/Notes" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +23,35 @@
       <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="374">
               <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/Notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day5/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-end-line="35" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -90,9 +112,10 @@
         <option value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/attribute-directive/attribute-directive.component.html" />
         <option value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/course/course.component.ts" />
-        <option value="$PROJECT_DIR$/Notes/Week 4/Day4/Notes" />
         <option value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css" />
+        <option value="$PROJECT_DIR$/Notes/Week 4/Day4/Notes" />
+        <option value="$PROJECT_DIR$/Notes/Week 4/Day5/Notes.txt" />
       </list>
     </option>
   </component>
@@ -104,6 +127,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Notes/Week 4/Day5/BlakeWork/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="31" />
@@ -118,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +158,19 @@
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+              <item name="SQLWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -146,57 +184,33 @@
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithAngular" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
+              <item name="BlakeWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithAngular" type="462c0819:PsiDirectoryNode" />
-              <item name="AngularBuild" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
+              <item name="BlakeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revature" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithAngular" type="462c0819:PsiDirectoryNode" />
-              <item name="AngularBuild" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
+              <item name="BlakeWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Revature" type="462c0819:PsiDirectoryNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithAngular" type="462c0819:PsiDirectoryNode" />
-              <item name="AngularBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Revature" type="462c0819:PsiDirectoryNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
-              <item name="Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="WorkingWithAngular" type="462c0819:PsiDirectoryNode" />
-              <item name="AngularBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Revature" type="b2602c69:ProjectViewProjectNode" />
@@ -207,9 +221,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,11 +345,14 @@
       <workItem from="1524056944526" duration="818000" />
       <workItem from="1524061863283" duration="36000" />
       <workItem from="1524143642486" duration="10251000" />
+      <workItem from="1524172702692" duration="173000" />
+      <workItem from="1524229657187" duration="4611000" />
+      <workItem from="1524234476030" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28281000" />
+    <option name="totallyTimeSpent" value="35293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="31" width="1368" height="692" extended-state="6" />
@@ -344,7 +360,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -353,11 +368,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293718" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -365,34 +379,14 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293718" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32994923" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293718" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +396,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Notes/Day2/Javascript.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Day2/Schedule.txt" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/embed.rnc" />
     <entry file="file://$PROJECT_DIR$/Assignments/March 19, 2018/HTML Pages/CSS Homework" />
@@ -552,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day3/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="374">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
@@ -563,9 +563,6 @@
           <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/structural-directive/structural-directive.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/attribute-directive/attribute-directive.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -602,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -619,7 +609,21 @@
     <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/WorkingWithAngular/AngularBuild/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day4/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Week 4/Day5/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>

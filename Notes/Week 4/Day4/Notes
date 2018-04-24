@@ -57,6 +57,12 @@ DATA BINDING
 
 
 
+PURE VS IMPURE PIPES
+...variable  <= deconstruction used to formulate impure pipes to pure.
+
+
+
+
 app.component.html
 <courses></courses>
 

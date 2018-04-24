@@ -1,0 +1,36 @@
+ANGULAR ROUTING:
+app.components.html:
+
+<router-outlet></router-outlet>
+
+ng g c components/home
+ng g c components/profile
+ng g c components/form
+
+
+routes.ts:
+import { Routes } from '@angular/router';
+
+export const routes: Routes = [
+    {
+        path: 'home',
+        component: HomeComponent
+    },
+    {
+        path: 'profile',
+        component: ProfileComponent
+    },
+    {
+        path:'form',
+        component: FormComponent
+    },
+    {
+        path: '**',
+        redirectTo: '/home',
+        pathMatch: 'full'
+    }
+];
+
+
+app.module.ts:
+RouterModule.forRoot(routes)
