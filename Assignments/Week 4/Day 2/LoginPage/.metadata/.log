@@ -1,0 +1,652 @@
+!SESSION 2018-04-25 19:57:19.296 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /var/host/media/removable/UNTITLED/Revature/Assignments/Week 4/Day 2/LoginPage -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 19:59:18.962
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 19:59:18.988
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 19:59:19.007
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 19:59:19.026
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.core.resources 4 77 2018-04-25 20:01:10.142
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-04-25 20:01:10.143
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-04-25 20:01:10.143
+!MESSAGE /var/host/media/removable/UNTITLED/Revature/Assignments overlaps the workspace location: /var/host/media/removable/UNTITLED/Revature/Assignments/Week 4/Day 2/LoginPage
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:02:20.986
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:02:21.049
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:02:22.708
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:02:22.738
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:03:05.045
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:03:05.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:03:05.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:33.734
+!MESSAGE The POM for com.oracle:ojdbc7:jar:12.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:33.904
+!MESSAGE The POM for com.oracle:ojdbc7:jar:12.1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:34.178
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:34.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:34.243
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:41.098
+!MESSAGE The POM for com.oracle:ojdbc7:jar:11.2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:41.190
+!MESSAGE The POM for com.oracle:ojdbc7:jar:11.2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:41.560
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:41.567
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:06:41.579
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:08:47.124
+!MESSAGE The POM for com.oracle:ojdbc7:jar:11.2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:08:47.323
+!MESSAGE The POM for com.oracle:ojdbc7:jar:11.2.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:08:47.659
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:08:47.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:08:47.699
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:09:09.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:09:09.943
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:06.813
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:06.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:23.424
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:23.441
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:24.605
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:24.624
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:38.662
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-04-25 20:10:38.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 0 2018-04-25 20:42:57.947
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+java.io.IOException: Exception in opening zip file: /home/bryce/Documents/eclipse/plugins/org.eclipse.core.resources_3.8.101.v20130717-0806.jar
+	at org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:329)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.basicOpen(ZipBundleFile.java:86)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.getZipFile(ZipBundleFile.java:99)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.checkedOpen(ZipBundleFile.java:72)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.getEntry(ZipBundleFile.java:244)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:548)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:492)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:465)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1620)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: /home/bryce/Documents/eclipse/plugins/org.eclipse.core.resources_3.8.101.v20130717-0806.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169)
+	at org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:312)
+	... 19 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-04-25 20:43:01.795
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2018-04-25 20:43:01.895
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.ui.ide 4 1 2018-04-25 20:43:01.895
+!MESSAGE Internal Error
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/core/internal/resources/SaveManager$3
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1620)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.core.internal.resources.SaveManager$3 cannot be found by org.eclipse.core.resources_3.8.101.v20130717-0806
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+
+!ENTRY org.eclipse.ui 4 4 2018-04-25 20:43:02.161
+!MESSAGE The proxied state for 'org.eclipse.ui.handlers.RadioState:xpath10' could not be loaded
+
+!ENTRY org.eclipse.ui 4 0 2018-04-25 20:43:02.174
+!MESSAGE The proxied state for 'org.eclipse.ui.handlers.RadioState:xpath10' could not be loaded
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.eclipse.wst.xml.xpath.ui was unable to load class org.eclipse.ui.handlers.RadioState.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:179)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:162)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:254)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:140)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:132)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2914)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1112)
+	at org.eclipse.ui.internal.Workbench.access$19(Workbench.java:1028)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1331)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1329)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1302)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1246)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$14(WorkbenchWindow.java:1217)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1280)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1278)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1290)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:477)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:517)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1401)
+	at org.eclipse.swt.widgets.Shell.closeWidget(Shell.java:646)
+	at org.eclipse.swt.widgets.Shell.gtk_delete_event(Shell.java:1228)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2082)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5467)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4569)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8756)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1243)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2302)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3361)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.lang.RuntimeException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:665)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.getResolvedImports(BundleDescriptionImpl.java:244)
+	at org.eclipse.osgi.internal.loader.BundleLoader.getImportedSources(BundleLoader.java:239)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findImportedSource(BundleLoader.java:1159)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 61 more
+Caused by: java.io.FileNotFoundException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.osgi.framework.util.SecureAction.getFileInputStream(SecureAction.java:123)
+	at org.eclipse.osgi.internal.resolver.StateReader.openLazyFile(StateReader.java:778)
+	at org.eclipse.osgi.internal.resolver.StateReader.fullyLoad(StateReader.java:816)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:662)
+	... 73 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-04-25 20:43:02.181
+!MESSAGE Plug-in org.eclipse.wst.xml.xpath.ui was unable to load class org.eclipse.ui.handlers.RadioState.
+!STACK 0
+java.lang.RuntimeException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:665)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.getResolvedImports(BundleDescriptionImpl.java:244)
+	at org.eclipse.osgi.internal.loader.BundleLoader.getImportedSources(BundleLoader.java:239)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findImportedSource(BundleLoader.java:1159)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:179)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:162)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:254)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:140)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:132)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2914)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1112)
+	at org.eclipse.ui.internal.Workbench.access$19(Workbench.java:1028)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1331)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1329)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1302)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1246)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$14(WorkbenchWindow.java:1217)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1280)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1278)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1290)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:477)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:517)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1416)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1401)
+	at org.eclipse.swt.widgets.Shell.closeWidget(Shell.java:646)
+	at org.eclipse.swt.widgets.Shell.gtk_delete_event(Shell.java:1228)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2082)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5467)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4569)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8756)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1243)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2302)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3361)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.io.FileNotFoundException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.osgi.framework.util.SecureAction.getFileInputStream(SecureAction.java:123)
+	at org.eclipse.osgi.internal.resolver.StateReader.openLazyFile(StateReader.java:778)
+	at org.eclipse.osgi.internal.resolver.StateReader.fullyLoad(StateReader.java:816)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:662)
+	... 73 more
+
+!ENTRY org.eclipse.osgi 4 0 2018-04-25 20:43:02.373
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+java.lang.RuntimeException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:665)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.getResolvedGenericRequires(BundleDescriptionImpl.java:253)
+	at org.eclipse.osgi.internal.resolver.StateHelperImpl.buildReferences(StateHelperImpl.java:351)
+	at org.eclipse.osgi.internal.resolver.StateHelperImpl.sortBundles(StateHelperImpl.java:305)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.sortByDependencies(StartLevelManager.java:524)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.sortByDependency(StartLevelManager.java:496)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.getInstalledBundles(StartLevelManager.java:481)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:251)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.io.FileNotFoundException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.osgi.framework.util.SecureAction.getFileInputStream(SecureAction.java:123)
+	at org.eclipse.osgi.internal.resolver.StateReader.openLazyFile(StateReader.java:778)
+	at org.eclipse.osgi.internal.resolver.StateReader.fullyLoad(StateReader.java:816)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:662)
+	... 21 more
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.395
+!MESSAGE NLS missing message: ECLIPSE_MISSING_IMPORTED_PACKAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.402
+!MESSAGE NLS missing message: ECLIPSE_MISSING_OPTIONAL_IMPORTED_PACKAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.405
+!MESSAGE NLS missing message: ECLIPSE_MISSING_DYNAMIC_IMPORTED_PACKAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.408
+!MESSAGE NLS missing message: ECLIPSE_MISSING_OPTIONAL_REQUIRED_BUNDLE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.414
+!MESSAGE NLS missing message: ECLIPSE_MISSING_REQUIRED_BUNDLE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.416
+!MESSAGE NLS missing message: ECLIPSE_MISSING_HOST in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.426
+!MESSAGE NLS missing message: ECLIPSE_MISSING_NATIVECODE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.436
+!MESSAGE NLS missing message: ECLIPSE_MISSING_REQUIRED_CAPABILITY in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.449
+!MESSAGE NLS missing message: ECLIPSE_MISSING_REQUIREMENT in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.462
+!MESSAGE NLS missing message: ECLIPSE_CANNOT_CHANGE_LOCATION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.468
+!MESSAGE NLS missing message: ECLIPSE_BUNDLESTOPPER_CYCLES_FOUND in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.513
+!MESSAGE NLS missing message: ECLIPSE_CACHEDMANIFEST_UNEXPECTED_EXCEPTION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.518
+!MESSAGE NLS missing message: fileManager_cannotLock in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.531
+!MESSAGE NLS missing message: fileManager_updateFailed in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.536
+!MESSAGE NLS missing message: fileManager_illegalInReadOnlyMode in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.549
+!MESSAGE NLS missing message: fileManager_notOpen in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.562
+!MESSAGE NLS missing message: ECLIPSE_ADAPTOR_ERROR_XML_SERVICE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.576
+!MESSAGE NLS missing message: ECLIPSE_ADAPTOR_RUNTIME_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.581
+!MESSAGE NLS missing message: ECLIPSE_ADAPTOR_EXITING in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.594
+!MESSAGE NLS missing message: ECLIPSE_DATA_MANIFEST_NOT_FOUND in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.607
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_ERROR_CONVERTING in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.612
+!MESSAGE NLS missing message: ECLIPSE_DATA_ERROR_READING_MANIFEST in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.625
+!MESSAGE NLS missing message: ECLIPSE_CLASSLOADER_CANNOT_GET_HEADERS in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.670
+!MESSAGE NLS missing message: ECLIPSE_CLASSLOADER_CONCURRENT_STARTUP in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.672
+!MESSAGE NLS missing message: ECLIPSE_CLASSLOADER_ACTIVATION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.679
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_COMMANDS_HEADER in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.681
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_HELP_DIAG_COMMAND_DESCRIPTION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.689
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_HELP_ENABLE_COMMAND_DESCRIPTION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.694
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_HELP_DISABLE_COMMAND_DESCRIPTION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.707
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_HELP_LD_COMMAND_DESCRIPTION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.720
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_NO_BUNDLE_SPECIFIED_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.725
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_NO_CONSTRAINTS_NO_PLATFORM_ADMIN_MESSAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.738
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_CANNOT_FIND_BUNDLE_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.751
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_NO_CONSTRAINTS in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.764
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_DIRECT_CONSTRAINTS in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.802
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_LEAF_CONSTRAINTS in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.816
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_BUNDLE_DISABLED_MESSAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.822
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_DISABLED_COUNT_MESSAGE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.834
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_DISABLED_BUNDLE_HEADER in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.847
+!MESSAGE NLS missing message: ECLIPSE_CONSOLE_DISABLED_BUNDLE_REASON1 in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.853
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ALREADY_RUNNING in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.868
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_STARTUP_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.873
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_SHUTDOWN_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.886
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ERROR_CHECK_LOG in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.891
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_NOT_RUNNING in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.904
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ERROR_NO_APPLICATION in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.908
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ROOTS_NOT_RESOLVED in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.946
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ALL_NOT_RESOLVED in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.948
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ERROR_BUNDLE_NOT_ACTIVE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.950
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_ERROR_BUNDLE_NOT_RESOLVED in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.964
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_BUNDLE_NOT_FOUND in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.977
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_FAILED_UNINSTALL in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.990
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_FAILED_INSTALL in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:02.995
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_FAILED_START in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.008
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_APP_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.021
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_FILEMANAGER_OPEN_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.026
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_PROPS_NOT_SET in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.039
+!MESSAGE NLS missing message: error_badNL in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.052
+!MESSAGE NLS missing message: location_cannotLock in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.065
+!MESSAGE NLS missing message: location_cannotLockNIO in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.102
+!MESSAGE NLS missing message: location_folderReadOnly in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.115
+!MESSAGE NLS missing message: location_notSet in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.128
+!MESSAGE NLS missing message: location_notFileProtocol in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.133
+!MESSAGE NLS missing message: location_noLockFile in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.148
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_FILENOTFOUND in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.161
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_ERROR_CREATING_BUNDLE_MANIFEST in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.171
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_PLUGIN_LIBRARY_IGNORED in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.184
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_ERROR_PARSING_PLUGIN_MANIFEST in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.187
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_MISSING_ATTRIBUTE in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.189
+!MESSAGE NLS missing message: parse_error in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.194
+!MESSAGE NLS missing message: parse_errorNameLineColumn in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.196
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_NO_SAX_FACTORY in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.210
+!MESSAGE NLS missing message: ECLIPSE_CONVERTER_PARSE_UNKNOWNTOP_ELEMENT in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-04-25 20:43:03.247
+!MESSAGE NLS missing message: ECLIPSE_PLUGIN_EXTRACTION_PROBLEM in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+
+!ENTRY org.eclipse.osgi 4 0 2018-04-25 20:43:03.260
+!MESSAGE NLS missing message: ECLIPSE_STARTUP_SHUTDOWN_ERROR in: org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMessages
+!STACK 1
+java.lang.RuntimeException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:665)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.getResolvedGenericRequires(BundleDescriptionImpl.java:253)
+	at org.eclipse.osgi.internal.resolver.StateHelperImpl.buildReferences(StateHelperImpl.java:351)
+	at org.eclipse.osgi.internal.resolver.StateHelperImpl.sortBundles(StateHelperImpl.java:305)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.sortByDependencies(StartLevelManager.java:524)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.sortByDependency(StartLevelManager.java:496)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.getInstalledBundles(StartLevelManager.java:481)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:251)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.io.FileNotFoundException: /home/bryce/Documents/eclipse/configuration/org.eclipse.osgi/.lazy.1 (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.osgi.framework.util.SecureAction.getFileInputStream(SecureAction.java:123)
+	at org.eclipse.osgi.internal.resolver.StateReader.openLazyFile(StateReader.java:778)
+	at org.eclipse.osgi.internal.resolver.StateReader.fullyLoad(StateReader.java:816)
+	at org.eclipse.osgi.internal.resolver.BundleDescriptionImpl.loadLazyData(BundleDescriptionImpl.java:662)
+	... 21 more
