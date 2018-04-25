@@ -37,3 +37,18 @@ CREATE TABLE reimbursement(
     reimb_type_id Number constraint ers_reimbursement_type_fk references reimbursement_type not null
 );
 commit;
+
+insert into user_roles values(0, 'admin');
+insert into users values(1,'yeet','boom','bob','sagget','boomman',0);
+insert into users values(2,'yeet@gmail.com','boom','bob','sagget','boomma',0);
+insert into users values(3,'yah@gmail.com','boom','bob','sagget','boomm',1);
+insert into reimbursement_status values(1, 'resolved');
+
+insert into reimbursement(reimb_id,reimb_amount, values(1, 10.56, 
+
+
+insert into reimbursement_type values(3, 'OTHER');
+commit;
+exit;
+
+SELECT * FROM Users WHERE ers_username = 'yeet@gmail.com' AND ers_password = 'boom';

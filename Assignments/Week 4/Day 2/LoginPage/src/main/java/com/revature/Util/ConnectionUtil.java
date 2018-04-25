@@ -1,4 +1,5 @@
 package com.revature.Util;
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,10 +8,13 @@ import java.util.Properties;
 
 public class ConnectionUtil {
 
-    private static String filename = "application.properties";
+    private static String filename = "/media/removable/UNTITLED/Revature/Assignments/Week 4/Day 2/LoginPage/src/main/java/com/revature/Util/application.properties";
 
 
     public static Connection getConnection() throws IOException, SQLException {
+
+        Properties prop = new Properties();
+
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -18,12 +22,11 @@ public class ConnectionUtil {
             e.printStackTrace();
         }
 
-        Properties prop = new Properties();
         ClassLoader loader = Thread.currentThread().getContextClassLoader();
         prop.load(loader.getResourceAsStream(filename));
         String url = prop.getProperty("url");
-        String username = prop.getProperty("username");
-        String password = prop.getProperty("password");
+        String username = prop.getProperty("usr");
+        String password = prop.getProperty("pwd");
         return DriverManager.getConnection(url, username, password);
 
     }
