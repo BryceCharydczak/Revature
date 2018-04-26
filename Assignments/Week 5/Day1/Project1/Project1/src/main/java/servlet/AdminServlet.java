@@ -13,7 +13,7 @@ public class AdminServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher rq = request.getRequestDispatcher("HTML/all.html");
+        RequestDispatcher rq = request.getRequestDispatcher("Views/all.html");
         rq.forward(request,response);
     }
 }

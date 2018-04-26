@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
         }
         System.out.println(user.getRoleID());
 
-        if (user != null){
+        if (user.getRoleID()==0){
             response.sendRedirect("admin");
         } else {
             response.sendRedirect("login");
@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher rq = request.getRequestDispatcher("HTML/login.html");
+        RequestDispatcher rq = request.getRequestDispatcher("Views/login.html");
         rq.forward(request,response);
     }
 }
