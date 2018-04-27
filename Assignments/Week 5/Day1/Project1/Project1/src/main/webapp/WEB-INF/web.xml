@@ -49,4 +49,34 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateReimbursementServlet</display-name>
+    <servlet-name>CreateReimbursementServlet</servlet-name>
+    <servlet-class>servlet.CreateReimbursementServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateReimbursementServlet</servlet-name>
+    <url-pattern>/request</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserServlet</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/history</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserServletRouter</display-name>
+    <servlet-name>UserServletRouter</servlet-name>
+    <servlet-class>servlet.UserServletRouter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletRouter</servlet-name>
+    <url-pattern>/UserServletRouter</url-pattern>
+  </servlet-mapping>
 </web-app>

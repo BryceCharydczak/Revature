@@ -1,4 +1,4 @@
-var URL = "http://localhost:8082/Project1/all";
+var URL = "http://localhost:8082/Project1/history";
 
 function fillTable(xhr){
     let ReimbursementArr = JSON.parse(xhr.responseText);
@@ -36,30 +36,6 @@ function fillTable(xhr){
         <td>${submitTime}</td>
         <td>${status}</td>
         `;
-        approveTable = document.createElement("td");
-        approve = document.createElement("button");
-        approve.setAttribute("class","btn btn-success");
-        approve.setAttribute("type", "submit");
-        approve.setAttribute("value", id);
-        approve.setAttribute("name", "decision");
-        approve.innerHTML = "Approve";
-
-        approveTable.appendChild(approve);
-        Row.appendChild(approveTable);
-
-        denyTable = document.createElement("td");
-        deny = document.createElement("button");
-        deny.setAttribute("class","btn btn-danger");
-        deny.setAttribute("type", "submit");
-        deny.setAttribute("value",id + '.1');
-        deny.setAttribute("name", "decision");
-        deny.innerHTML = "Deny";
-
-        denyTable.appendChild(deny);
-        Row.appendChild(denyTable);
-
-
-        table.appendChild(Row);
     }
 }
 

@@ -1,0 +1,8 @@
+Hibernate Object States
+
+    Transient :
+        - Object instantiated in java application but has no representation in the database.
+    Persistent:
+        - Object on the java side that is managed by a hibernate session and has a representation in the database
+    Detached:
+        - Object was once persistent but is no longer managed by a session

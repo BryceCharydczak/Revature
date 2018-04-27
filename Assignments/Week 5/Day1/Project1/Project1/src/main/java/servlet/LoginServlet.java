@@ -8,6 +8,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 public class LoginServlet extends HttpServlet {
@@ -22,7 +24,8 @@ public class LoginServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+    	HttpSession session = request.getSession();
+    	
         System.out.println("hi");
         String username = request.getParameter("email");
         String password = request.getParameter("password");
@@ -32,6 +35,7 @@ public class LoginServlet extends HttpServlet {
 
 
         User user = usr.getUserFromLogin(username, password);
+        session.setAttribute("currentuser", user);
 
         if (user == null){
             System.out.println("null");
@@ -40,15 +44,17 @@ public class LoginServlet extends HttpServlet {
 
         if (user.getRoleID()==0){
             response.sendRedirect("admin");
-        } else {
+        } else if (user.getRoleID()==1){
+        	response.sendRedirect("request");
+        }else {
             response.sendRedirect("login");
         }
-
 
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         RequestDispatcher rq = request.getRequestDispatcher("Views/login.html");
         rq.forward(request,response);
     }

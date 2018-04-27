@@ -5,7 +5,10 @@ import pojo.Reimbursement;
 import java.util.ArrayList;
 
 public interface ReimbursementDAO {
-    public void addReimbursement(Reimbursement reimbursement);
+    public boolean addReimbursement(double amount, String description, int type, int userid);
     public ArrayList<Reimbursement> getAllReimbursement();
+    public ArrayList<Reimbursement> employeeReimbursement(int userid);
+    public boolean updateReimbursement(Reimbursement reimbursement);
+    
 
 }

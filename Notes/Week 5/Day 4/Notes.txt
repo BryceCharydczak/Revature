@@ -1,0 +1,118 @@
+HIBERNATE
+
+ORM - Object Relational Mapping
+
+Hibernate:
+    - ORM Tool
+    - Built on top of JDBC
+    - Abstracts away the certain cancerous levels of Object mapping present in JDBC
+    - Removes much of the basic DAO coding operation, removes code repitition.
+    - HQL = Hibernate Query Language.
+        - Dialect agnostic.
+
+
+2 Approaches of Hibernate:
+    - Database First:
+        + Interacting with reviously established database entities.
+    - Code First:
+        + create our database structures based on java classes.
+
+
+Hibernate API:
+    org.hibernate 
+Java Persistence API
+    javax.persistence 
+
+Session:
+    - representing a connection to database
+    org.hibernate.Session != javax.servlet.HttpSession
+    Methods:
+        save
+        update
+        begin transaction
+        createquery
+
+    - SessionFactory (interface)
+        - use this to get our sessions
+        - create it using configuration(class) and ServiceRegistry(interface)
+            - Singleton and Factory programming patterns involved
+
+    - Configuration (class)
+        - get our hibernate configuration from our xml configuration file.
+    
+    //code flow
+    Configuration c = new Configuration().configure(filename);
+    
+    //filename = xml hibernate configuration file
+
+    ServiceRegistry sr = new StandardServiceRegistryBuilder().applySettings(c.getProperties).build();
+    SessionFactory sf = c.buildSessionFactory(sr);
+    Session s = sf.openSession();
+
+        Transaction tx = s.beginTransaction();
+        tx.commit();
+    s.close();
+
+
+    Query(Interface)
+        - create more complicated and specific queries to the database.
+        - where it is necessary to use the HQL
+    Criteria(Interface)
+        - programmatic approah to querying the database
+        - object oriented
+    - Transaction (interface)
+        - manages our ACID compliant transactions
+        - get transactions from session
+        ***autocommit is false by default
+
+
+
+Configuring Hibernate into a Jaa Application file used with our configuration object = hibernate.cfg.xml
+
+<hibernate-configuration>
+    <session-factory>
+        <property name = "hibernate.connection.username">username</property>
+        <property name = "hibernate.connection.password">password</property>
+        <property name = "hibernate.connection.url">url</property>
+        <property name = "hibernate.connection.driver_class>class</property>
+        <property name = "show_sql">true</property>
+        <mapping class = "com.revature.beans.Employee"/>
+    </session-factory>
+</hibernate-configuration>
+
+
+MAPPING CONFIGURATION 
+
+    XML Mapping:
+    <!DOCTYPE hibernatemapping "link DTD">
+        <hibernate-mapping>
+        <id name="employeeid" type="int" column="EMP_ID"></id>
+        <property name="firstName" type="String" column="FIRST_NAME"></property>
+        <property name="lastName" type="String" column="LAST_NAME"></property>
+        <property name="salary" type="int" column="SALARY"></property>
+        </hibernate-mapping>
+
+    ANNOTATIONS:
+    @Entity
+    @Table(name="EMPLOYEE")
+    public class Employee{
+        @Id
+        @Column(name="EMP_ID")
+        private int EmployeeID;
+
+        @Column(name="FIRST_NAME")
+        private String firstName;
+
+        @Column(name="LAST_NAME")
+        private String lastName;
+
+        @Column(name="SALARY")
+        private int salary;
+    }
+
+
+    ***spare annotations:
+    @OneToOne
+    @OneToMany
+    @ManyToOne
+    @ManyToMany

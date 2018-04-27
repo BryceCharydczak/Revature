@@ -18,7 +18,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="http://localhost:8082/Project1/admin">All Reimbursements <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="http://localhost:8082/Project1/history">History <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://localhost:8082/Project1/request">Add Request</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="http://localhost:8082/Project1/login">Logout</a>
@@ -27,20 +30,9 @@
             </div>
           </nav>
 <div class="table-responsive jumbotron">
-        <h1>ALL REIMBURSEMENTS</h1>
-        <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Filter By
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Lodging</a>
-                  <a class="dropdown-item" href="#">Travel</a>
-                  <a class="dropdown-item" href="#">Food</a>
-                  <a class="dropdown-item" href="#">Other</a>
+        <h1>Reimbursement History</h1>
 
-                </div>
-              </div>
-<form action="admin" method="post">
+<form action="history" method="post">
 <table id="table" class="table table-hover table-striped">
     <tr>
         <th>Reimbursement ID</th>
@@ -50,13 +42,12 @@
         <th>Type</th>
         <th>Submitted</th>
         <th>Status</th>
-        <th>Approve</th>
-        <th>Deny</th>
+
 
     </tr>
 </table>
 </form>
 </div>
-<script src="Scripts/AllReimbursements.js"></script>
+<script src="Scripts/history.js"></script>
 </body>
 </html>
