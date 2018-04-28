@@ -6,3 +6,95 @@ Hibernate Object States
         - Object on the java side that is managed by a hibernate session and has a representation in the database
     Detached:
         - Object was once persistent but is no longer managed by a session
+
+
+
+
+    Session Methods: (CRUD - Create, Read, Update, Delete)
+        adding data (C)
+            save: return object identifier 
+                - can execute outside of a transaction (will execute an insert statement if necessary to get the Primary Key)
+                - makes transient or detached object persistent
+            persist: void return time
+                - ID may be available immediately(may be assigned when transaction/session closes)
+                - cannot persist a detached object (Persistence Exception)
+
+
+        retrieving data (R)
+            get: immediately hits database and instantiates an object and populates all of its fields
+                - Eagerly instantiates
+            load: returns a proxy with the appropriate identifier
+                - Lazily instantiates
+                - will hit database and populate all object's fields when the object is accessed within that session
+                - Lazy Initialization Exception: When an attempt is made to access the object outside the session having never been accessed within session
+
+
+
+        changing data (U)
+            Update: tries to attach the object to a persistent state 
+                - if an object with the same identifier is already in a persistent state, NonUniqueObjectException is thrown.
+                - void return type.
+            Merge: first checks for a persistent object with the identifier of the provided object
+                    if one does not exist it will instantiate one
+                - copies over fields from the provided object to the persistent object
+                - returns the persistent object 
+            SaveOrUpdate: going to insert or update the object according to its representation in the database.
+                - will not throw a NonUniqueObjectException if a persistent object already exists.
+                - void return type
+
+
+        removing data (D)
+            Delete
+
+
+Automatic Dirty Checking:
+    - when a session is closed, hibernate checks for any changes in persistent objects and updates the database to reflect those changes
+
+
+Query(interface)
+    - can use HQL-hibernate query language
+
+   1) Session s = HibernateUtil.getSession();
+   2) String hql = "from Bears";
+   3) Query q = s.createQuery(hql);
+   4) List results = q.List();
+
+    Line 2 can be rewritten as:
+    String hql = "from Bears
+    where name :=nameParam";
+    q.setParameters("nameparam","Jason");
+
+
+Criteria(interface)
+
+Criteria c = s.createCriteria(Bears class);
+c.add(Restriction.eq("name", "Jason"));
+List<Bears> result = c.list();
+
+*Projections used for aggregate functions.
+
+
+
+
+
+
+
+======================================================================
+
+
+INHERITANCE STRATEGIES
+
+    - Table per Hierarchy
+    - Table per Subclass
+    - Table per Concrete Class
+
+
+
+
+
+CACHING: storing information form the database in your java application
+    - Level 1:  (default)
+        - Session scoped
+        - data will be available from previous queries within the same session 
+    - Level 2:
+        - Session Factory scoped

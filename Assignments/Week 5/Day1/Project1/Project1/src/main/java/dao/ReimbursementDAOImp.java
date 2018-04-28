@@ -55,6 +55,7 @@ public class ReimbursementDAOImp implements ReimbursementDAO {
                 re.setResTime(rs.getString(4));
                 re.setDescription(rs.getString(5));
                 re.setAuthor(rs.getInt(7));
+                re.setResolver(rs.getInt(8));
                 re.setStatusID(rs.getInt(9));
                 re.setTypeID(rs.getInt(10));
                 
@@ -84,6 +85,7 @@ public class ReimbursementDAOImp implements ReimbursementDAO {
                 re.setResTime(rs.getString(4));
                 re.setDescription(rs.getString(5));
                 re.setAuthor(rs.getInt(7));
+                re.setResolver(rs.getInt(8));
                 re.setStatusID(rs.getInt(9));
                 re.setTypeID(rs.getInt(10));
             }
@@ -130,8 +132,8 @@ public class ReimbursementDAOImp implements ReimbursementDAO {
             Connection conn = ConnectionUtil.getConnection();
             String sql = "SELECT * FROM REIMBURSEMENT WHERE REIMB_AUTHOR = ?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
-			pstmt.setInt(1, 1);
-			ResultSet rs = pstmt.executeQuery(sql);
+			pstmt.setInt(1, userid);
+			ResultSet rs = pstmt.executeQuery();
             while(rs.next()){
                 Reimbursement re = new Reimbursement();
                 re.setReimbursementID(rs.getInt(1));
@@ -140,6 +142,7 @@ public class ReimbursementDAOImp implements ReimbursementDAO {
                 re.setResTime(rs.getString(4));
                 re.setDescription(rs.getString(5));
                 re.setAuthor(rs.getInt(7));
+                re.setResolver(rs.getInt(8));
                 re.setStatusID(rs.getInt(9));
                 re.setTypeID(rs.getInt(10));
                 employeeReimbursements.add(re);

@@ -38,13 +38,13 @@ public class UserServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 
-		
+		System.out.println(session.toString());
 		if(session != null && session.getAttribute("currentuser") != null) {
 			User temp = (User) session.getAttribute("currentuser");
 			ObjectMapper om = new ObjectMapper();
 			String s = "";
 			PrintWriter pw = response.getWriter();
-			ArrayList<Reimbursement> tickets = rs.employeeReimbursement(temp.getRoleID());
+			ArrayList<Reimbursement> tickets = rs.employeeReimbursement(temp.getUserID());
 			s = om.writeValueAsString(tickets);
 			pw.write(s);
 		}

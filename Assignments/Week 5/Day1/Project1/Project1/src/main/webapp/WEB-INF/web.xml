@@ -67,7 +67,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserServlet</servlet-name>
-    <url-pattern>/history</url-pattern>
+    <url-pattern>/UserServlet</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -77,6 +77,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserServletRouter</servlet-name>
-    <url-pattern>/UserServletRouter</url-pattern>
+    <url-pattern>/history</url-pattern>
   </servlet-mapping>
 </web-app>

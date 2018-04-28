@@ -1,7 +1,7 @@
-var URL = "http://localhost:8082/Project1/history";
+var URL = "http://localhost:8082/Project1/UserServlet";
 
 function fillTable(xhr){
-    let ReimbursementArr = JSON.parse(xhr.responseText);
+    ReimbursementArr = JSON.parse(xhr.responseText);
 
     table = document.getElementById("table");
 
@@ -17,6 +17,7 @@ function fillTable(xhr){
 
 
         Row = document.createElement("tr");
+        
         if (status == 0){
             Row.setAttribute("class", "table-danger");
         } else if (status == 1){
@@ -36,6 +37,7 @@ function fillTable(xhr){
         <td>${submitTime}</td>
         <td>${status}</td>
         `;
+        table.appendChild(Row);
     }
 }
 
