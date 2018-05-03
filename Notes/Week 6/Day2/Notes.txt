@@ -1,0 +1,162 @@
+Review:
+
+Spring Modules:
+core
+bens
+orm
+test
+boot
+data
+rest
+mvc
+security
+aop
+context
+
+Inversion of Control:
+implemented by dependency injection
+we wire our dependencies together - spring takes care of the rest
+
+
+Types of dependency injection:
+constructor
+setter
+interface
+
+
+
+@Autowired - allows spring to wire dependency itself(byType)
+    - can be applied to setter/constructor/property
+
+
+IOC Container:
+BeanFactory:
+    - Old
+    - lazily instantiates beans
+    - must be provided resource object
+
+ApplicationContext:
+    - new
+    - eagerly instantiates beans
+    - can have more overhead
+
+    Standalone java:
+    FileSystemXmlApplicationContext
+    ClassPathXmlApplication
+
+    Web Active:
+    XmlWebApplicationContext
+
+
+
+@Component
+@Service
+@Controller
+@Bean 
+@Repository
+
+<context:component-scan base package="..."></...>
+
+BeanScopes
+    - Singleton(default)
+        - getBean() always gives same result.
+    - prototype
+
+
+Bean Lifecycle:
+1) request bean (ac.getBean("name");)
+2) instantiation
+3) populate properties
+4) BeanNameAware setBeanName
+5) BeanFactoryAware setBeanFactory
+6) BeanPostProcessor pre-initialization
+7) InitializingBean afterpropertiesSet
+8) custom init method(if defined) - best place for custom behavior
+9) BeanPostProcessor Post-initialization
+--------------Bean ready----------------
+
+10) container is shut down
+11) DisposableBean destroy() method
+12) custom destroy method
+
+
+
+Aspect/Cross Cutting Concern
+
+Advice - action to be taken at a join point (Before, After, Aroud)
+Join Point - any location where advice can be inserted (method execution)
+Point Cut Expression - specifies join points where your advice will be applied
+
+
+
+Advices:
+execution(<returntype><methodname>(...))   <- define a subset of methods
+within(com.revature.beans.*)
+this
+args
+target
+
+specify these advices with annotations (AspectJ)
+
+
+
+
+
+SPRING MVC 
+    - module of spring which allows our applications to handle HttpRequest
+
+model - connection of view and controller
+view - front end
+controller - business logic
+
+
+1) client sends HttpRequest to Service
+2/3) our request is directed to masterservlet/dispatcherservlet
+4) dispatcher servlet consults the handlermapping to determine the appropriate controller to handle the request.
+5) controller handles the request and send the response back to the dispatcher servlet.
+6/7) The dispatcherservlet now consults the view resolver or doesnt and generates the appropriate view
+8) The view is returned to the client.
+
+
+RequestMappingHandlerMapping 
+    - bean that's registered with our IOC container
+    <mvc:annotation-driven></...>
+
+
+
+@Controller - registering our class as a spring bean which will be managed by the IOC Container
+    - a class with methods which can handle Http Requests
+
+@RequestMapping - can be at the top of a class (will preceed method mappings)
+    - can specify both the value and method for each method 
+
+
+@Controller
+@RequestMapping("employees")
+public class EmployeeController{
+    @RequestMapping(value="/create" method="RequestMethod.Get")
+    public getCreatePage(){
+        return "NewEmployee";
+    }
+}
+
+@RequestParam("nameInJsp")
+@RequestMapping(value="/employee/{id}")
+public void getEmpID(@PathVariable("id"), int empId){
+    Employee e = EmplDAOImp.getEmployeeById(empId);
+}
+
+@RequestMapping(value="/employees", method RequestMethod.Get)
+
+
+
+View resolver  
+    - bean that we declare in our beans.xml 
+
+<bean name="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix">
+        <value>/WEB-INF/pages</value>
+    </property>
+    <property name="suffix">
+        <value>.jsp</value>
+    </property>

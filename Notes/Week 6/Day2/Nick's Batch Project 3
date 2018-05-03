@@ -1,0 +1,17 @@
+Calibur architecture deconstruction of monolith into microservices
+
+calibur + Janus = organizational tool to keep track of batch info
+calibur = handling and manipulating janus info
+
+
+Hydra - team took hydra and split it into even smaller microservices
+
+
+
+
+suggested changes to the Calibur work:
+
+front end circuit breaking
+could integrate other microservices
+could add assessment and notes to our batch assessing
+

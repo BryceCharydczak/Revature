@@ -1,0 +1,197 @@
+SPRING!!!!!!YAY
+
+
+    - Java framework, provides different modules
+    - provides inversion o control via dependency injections
+
+
+Service Locator
+- Until now, when a pojo needs another object (dependency), the pojo
+itself has been responsible for locating and instantiating the object.
+
+    ***INVERSION CONTROL:
+        - allow a framework to do the laction and instantiation for us.
+        - using spring we will accomplish this by using dependency injection
+        - we will configure our application and wire our pojos together to accomplish this ^
+
+    Inversion control: obeys Hollywood Principle ("Don't call us, we'll call you").
+
+
+
+
+
+Spring Modules:
+    CORE       ] ]- provides the basic functionalities of dependency injection
+    BEANS      ] ]- provides to us Bean Factory Interface, IOC container instantiates and manages our beans for us.
+    CONTEXT    ] - provides us with ApplicationContext interface (extends BeanFactory Interface)
+    AOP 
+    MVC 
+    SECURITY 
+    DATA 
+    ORM
+    BOOT
+    REST
+    TEST
+
+
+
+ApplicationContext vs. BeanFactory
+
+
+
+BeanFactory
+    - older
+    - lazily instantiates your beans/pojos
+    - must be provided a resource object
+    - instantiation below:
+
+ClassPathResource resource = new ClassPathResource("beans.xml");
+XmlBeanFactory = new XmlBeanFactory(resource);
+
+
+
+ApplicationContext
+    - newer
+    - eagerly instantiates beans/pojos
+    - newer, includes more functionalities
+    - extends BeanFactory
+    - create and manage their own resource object
+    - instantiation below:
+
+ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
+FileSystemXmlApplicationContext
+XmlWebApplicationContext
+
+
+
+
+
+Beans.xml - xml file where we configure our beans that will be managed by our IOC container
+    - Define relationships between beans (bean wiring)
+
+
+Spring beans - class that we designate to be managed by our IOC container.
+    <beans>
+        <bean name="beanA" class="com.example.bean.BeanA">
+            <property name="beanB" ref="beanB"/>
+        </bean>
+        <bean name="beanB" class="com.example.bean.BeanB">
+        </bean>
+    </beans>
+
+name - references the actual class instance variable name.
+ref - references other bean tags within the xml.
+
+
+@Component - registers our class as a spring bean - allowing it to be managed by our IOC container
+
+@Repository - registers a spring bean, dao implementation class 
+            - class in our persistance layer
+
+@Service - registers a spring bean in our service layer
+
+@Controller - register a spring bean for us on our presentation layer
+            - used with our controllers in MVC
+
+@Configuration - a class where we would configure our beans together (@Bean is how we actually specify our beans within that configuration class)
+
+
+
+
+Bean Lifecycle: mostly managed by the IOC container
+    - request is made for the bean
+    - instatiation of the bean
+    - populate the properties
+    - BeanNameAware(interface) method "setBeanName()" is called
+    - BeanFactoryAware(interface) method "setBeanFactory()" is called
+    - Pre initialization BeanPostProcessors(interface)
+    - InitializingBeans(interface) method "AfterPropertySet()" - can be overridden
+    - custom init method (if defined) - best place to define custom behavior ( maintains loos coupling)
+    - BeanPostProcessors Post-initialization method
+    - Bean is ready to use.
+    -
+    -
+    - DisposableBeans(interface) destroy()
+        - custom destory method (if defined)
+
+
+
+Types of Dependency Injection:
+
+1. Constructor Injection
+    - provide our bean as a constructor argument, injecting it as a dependency for the bean that we're instantiating
+
+2. Setter Injection
+    - provide a setting method which will provide our dependency to our bean after its instantiated
+    - @Required can be used with our setter injection to ensure that the dependency is received.
+    - can be used for optional dependencies
+    - more readable
+
+3. Interface Injection - not supported by Spring
+
+
+
+
+
+Autowiring - let spring figure our the dependencies itself "automagically"
+    1. byName
+    2. byType
+
+<bean name="beanA" class="...BeanA" autowire="byName">
+<bean name="beanA" class="...BeanA" autowire="byType">
+<context:Component-scan base-package="com.example.beans"></context:component-scan>
+
+
+
+Bean Scopes:
+    Singleton
+        - One instance of this bean per ApplicationContext
+        - If we use the ApplicationContext getBean method it will return the same instance everytime.
+        - (default scope for our beans)
+    Prototype
+        - each time the ApplicationContext getBean method is called it will return another instance of the Bean.
+        - after instantiation, their lifecycle is no longer handled by the IOC container
+
+Additional scopes available in web applications
+    - request = scoped to the lifecycle of an http request
+    - session = scoped to the lifecycle of an http session
+    - globalSession = scoped to the lifecycle of a global session for a portlet
+    - application = scoped to the servlet context
+    - websocket = scoped to the web socket
+
+
+
+
+Spring AOP
+    - Aspect Oriented Programming
+    - Aspect = cross-cutting concern
+    - unrelated to our use cases 
+    - business logic -> allows us to decouple our cross cutting concerns from our application
+
+Logging
+Security/authentication
+testing
+
+
+
+    Join Point = any location where you can insert advice
+    Advice = code to be executed at a particular join point
+    Point Cut = the specific join points where we will insert our advice (basically a result set o join points)
+
+Types of Advice:
+@Before - advice executes before each join point specified with the point cut
+@After(analagous to "finally" will occur no matter what the join point method returns)
+    @AfterReturning - occurs only if the JP doesnt throw an exception
+    @AfterThrowing - occurs only if the JP throws an exception
+@Around - most powerful, can specify behavior before and after join point execution
+@Aspect - the class is a bean with advice to inject into other classes 
+
+
+
+Point Cut Expressions:
+    - We define predicates that specify which join points the specific advice should be applied to
+
+
+Types of Point Cut Expressions:
+    Execution - define a subset of methods we want our advice to be inserted within their execution.
+        
