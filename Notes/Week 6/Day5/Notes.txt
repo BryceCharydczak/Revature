@@ -1,0 +1,41 @@
+RESTful Web Services
+
+Representational State Transfer
+    - resource identification through URL
+    - uniform interface
+        + create - post
+        + read - get
+        + update - put
+        + delete - delete
+    - can use any data format (json, xml, etc)
+    - not contract based - (heavily reliant on documentation)
+    - lightweight but not as secure
+
+
+Ways to make your RESTful Web Service more secure  
+    - User validation
+    - Session Management
+    - Keep sensitive data out of the endpoints
+    - Well formed data
+    - create generic error messages
+
+*************************************
+JAX-WS-Java API for XML Web Services
+    - can also use Jersey
+In Spring @RestController (to expose)
+          @RestTemplate (to consume)
+
+
+
+Service Oriented Archictecture
+    - a style of software design where services are provided to other components through a communication protocol over a network.
+    - client and server applications communicating over the world wide Web
+
+Why do we use Web Service?
+    - make our application more modular, separation of concerns, more focused roles
+    - easier to test, debug, maintain
+    - provide standard means of inter - operating between software applications using various platforms and frameworks
+
+
+Exposing: creating and making a web service available 
+Consuming: using or interacting with a web service
