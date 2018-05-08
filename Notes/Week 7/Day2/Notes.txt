@@ -52,4 +52,55 @@ Creating a SOAP Service:
         + The java application is then structure around the definition provided in the WSDL
     2. Contract last (bottom up) approach
         + java application is created first and then our WSDL is generated based on the application code 
-        
+
+
+
+WSDL Tags:
+    <definitions> - root tag, define the name of the service along with any relevant namespaces or schemas
+    <types> - define our complex types used in the serivce. Conform to a user defined XSD (xml schema definition)
+    <message> - abstract definition of the data being communicated (usually going to correspond with operations)
+    <operation> - defines what actions are available within the service (represents service methods)
+    <portType> - define service along with each operation the client can perform, and the messages associated with it
+    <binding> - specifies the SOAP binding style + protocol (http in our case)
+        + Soap Binding Styles:
+            - how the body of our SOAP body is formatted.
+            - how our WSDL translates to our SOAP message
+        Styles:
+            1. Document - no specific formattin rules, can contain whatever the sender/reciever agree upon
+            2. RPC (remote procedure call) - SOAP body contains an xml representation of the method and any parameters involved
+        Models:
+            1. Literal - contents conform to XSD - easier to translate and validate
+            2. Encoded - contents do not need to conform to an XSD making it harder to translate and validate.
+
+        ** All this means is that there are 4 distinct ways to bind our SOAP message**
+            + Document Literal (most used)
+            + Document Encoded (not really used)
+            + RPC Literal (not really used)
+            + RPC Encoded (sometimes used)
+
+    <service> - specifies a collection of network endpoints exposed to web-based protocols
+    <ports - specifies the address or connection point of a web service (generally an http URL string)
+
+
+
+Java Implementation of SOAP Binding Styles:
+
+    JAX-B = marshalling/unmarshalling
+    JAX-WS = APACHE CXF (Implementation of JAX-WS)
+
+
+
+
+
+Exposing a SOAP Web Service
+    1. package application as a .war + include spring MVC dependencies and APACHE CXF dependencies
+    2. web.xml define CXF Servlet 
+    3. beans.xml include schema definitions/namespaces
+    4. create an interface annotated with @WebService which includes all of our service methods
+    5. create an implementing class which specifies the behavior of these service methods.
+    6. register our Service implementation endpoint in our beans.xml
+        <jaxws:endpoing id=".."
+         implementor=".."
+         address=".."></jaxws:endpoint>
+    7. run our application on tomcat
+     ~~~~~~~~~SOAP service is exposed~~~~~~~~~
