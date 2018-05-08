@@ -1,0 +1,55 @@
+SOAP
+
+Service Oriented Architecture: a way of creating software where applications are communicating in a standard way across the Internet.
+
+
+REST: 
+    - No impliciet documentation
+    - Any data format (xml, json, etc)
+    - lightweight
+    - cached
+    - accessed through url endpoint + httpverbs
+    - http 
+    - not contract based
+
+SOAP: Simple Object Access Protocol
+    - contract based
+    - only uses xml data format
+    - heavier protocol than REST
+    - accessed through a service endpoint interface
+    - not tied to any particular protocol
+    - we use http but you dont have to (smtp, ftp, etc, all viable)
+
+
+SOAP = converting our objects to xml and transportin them in a SOAP message
+    1. Envelope(Required) - defines where a soap message begins/end
+    2. Header(Optional) - defines additional attributes that are associated with the message
+    3. Body(Required) - contains the xml data of the message
+    4. Fault(Optional) - describes whats going on whenever we have some sort of error with our message processing
+        - Only applies to http status codes in the 500's
+
+        SOAP Message Fault:
+            1. Fault Code - indicates the class of error
+            2. Fault String - text describing the error
+            3. Fault Actor - which node caused the error
+            4. Details - application specific details about what caused the error
+
+
+SOAP Header/Body != HttpRequestHeader/Body
+Entirety of the SOAP message will be in the request/response body (POST)
+Client != Browser
+    - Prevelant in business to business communication (no browser involved)
+
+
+
+
+SOAP Contract : Web Services Description Language (WSDL)
+    - language agnostic xml document which defines the structure of a SOAP web service
+
+Creating a SOAP Service:
+    1. Contract first (Top Down) approach
+        + WSDL is created before the java application
+        + The java application is then structure around the definition provided in the WSDL
+    2. Contract last (bottom up) approach
+        + java application is created first and then our WSDL is generated based on the application code 
+        

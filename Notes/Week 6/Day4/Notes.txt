@@ -1,0 +1,28 @@
+SPRING BOOT
+- Takes an opinionated view of building Spring applications and get us up and running as fast as possible
+
+
+Key Features of Spring Boot:
+    - Automatic Configuration
+    - Embedded Tomcat Server
+    - Embedded H2 database(in memory)
+    - Spring Boot Starter dependencies
+    - Actuator
+    - Devtools
+
+
+Spring Boot Actuator:
+    - Provides several useful endpoints for devs to check various aspects of their application
+        -/info
+        -/metrics
+        -/health
+
+
+Spring Boot DevTools:
+    - Automatic Tomcat restart when project files are edited.
+
+
+Spring Data JPA:
+    - aims to reatly reduce the amount of boilerplate code usually required by JDBC and even hibernate.
+
+
