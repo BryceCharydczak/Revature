@@ -1,0 +1,32 @@
+Starting a Docker EC2
+
+
+Create new folder called Docker-demo
+
+Create new file called Dockerfile
+
+Navigate to project root folder and right click to bring into powershell/some shell
+    - mvn clean
+    - mvn package
+    This should make a snapshot jar
+    - cd into target folder
+    - java -jar <jar-name>
+        This should run, which means it can successfully run in Docker
+    
+    put the jar in the Docker-demo folder
+
+
+Next we will copy over the Docker-demo folder into an EC2 instance
+    - ssh into EC2 with putty
+    - pscp to copy
+
+Inside EC2:
+    sudo yum update -y
+    sudo yum install -y docker 
+    sudo service docker start 
+    sudo usermod -a -G docker ec2-user 
+    (then reload the cmd session to allow it to update permissions of last command)
+
+
+Inside Docker-demo
+    docker build -t fc-eureka .

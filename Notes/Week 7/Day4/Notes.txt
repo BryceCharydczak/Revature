@@ -1,0 +1,84 @@
+Microservices:
+
+API-gateway (Zuul/ Spring Cloud - Spring Boot)
+Discovery Service (eureka)
+Config Service
+Circuit Breaker (non service)  (Histrix)
+    - uses the delta from the heartbeat to the discovery service to restrict the business service from calling for resources when it is down
+Business services (spring boot apps)
+
+
+Advantages of Microservices: 
+    Loosely Coupled Services
+    Reduced single points of failure
+    Uptime - approaching 99.99%
+    Scaling
+    Flexibility
+
+Disadvantages of Microservices:
+    Cost
+    Complexity
+    latency
+    Loss of ACID
+        - instead use BASE 
+            - Basic Availability
+            - Soft State
+            - Eventual Consistency
+    
+
+
+Routing of Microservices:
+
+Client -> API-gateway -> Business Service -> Discovery Service
+
+
+
+Load Balancing - rerouting service based on influx of requests, directing flow to lowest latency ec2 instance
+
+
+
+
+Docker Image ~~ similar to AMI (Amazon Machine Image)
+Docker Images make Container (each container should contain a Microservice)
+
+Dockerfile:
+    - Always starts with the keyword:
+        FROM java:8
+        COPY/ADD                           (target/...jar eureka.jar) 2 params, first is location, second is rename
+        ENV                                (environment variable)
+        EXPOSE 8761                        (port setup)
+        CMD {"java", "-jar", "eureka.jar"}
+
+
+
+
+docker Image CMD
+docker build -t <tag-name> .
+    tag-name should be "eureka"
+    "." location of docker file
+
+docker run -d -p 8761:8761 <tag-name>         (d = detached, p = publish)
+
+
+build docker file
+create docker image from it 
+run it
+
+
+
+tl;dr 
+docker run java:8  
+    makes a java jdk 8 docker image 
+
+
+
+
+
+
+
+Messaging Queue in microservices: 
+    when a service is down it will contact the messaging queue to acquire the information it lost while it was down
+    Our messaging queue is Kafka
+
+Config Server:
+    application properties or yml file

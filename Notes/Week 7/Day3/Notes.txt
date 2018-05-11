@@ -1,0 +1,5 @@
+Eureka - discovery service
+Zuul - gateway 
+Histrix - circuit breaker pattern
+Fain Client - Rest template
+

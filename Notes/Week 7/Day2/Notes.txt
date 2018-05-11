@@ -104,3 +104,27 @@ Exposing a SOAP Web Service
          address=".."></jaxws:endpoint>
     7. run our application on tomcat
      ~~~~~~~~~SOAP service is exposed~~~~~~~~~
+
+
+
+Consuming a SOAP Service with a Java Application
+    1. include Apache CXF dependencies in our pom 
+    2. create the same models (pojos) as are defined in the SOAP service - these are the complex types defined in the WSDL
+    3. create an interface which declares all of the service methods - found in our operation tags in our WSDL
+        - don't provide any implementing class, just interface with @WebService
+        Interface with @WebService
+        - also want to declare exceptions (no need for implementation here either)
+    4. JaxWSProxyFactoryBean - object is used to interact with our service 
+        - set interface and endpoint url
+        - invoke its create() method
+    5. Client is able to use service methods
+    ~~~~~~~~~~~Service is consumed~~~~~~~~~~~~~~~
+
+
+Web Service Protocol Stack
+    - 4 layers of protocols used to design, discover, and implement Web Services
+
+    1. Transfer Protocol - responsible for moving our messages between our applications
+    2. Messaging Protocol - how our messages will be encoded so they can be understood by both the service and client (XML, SOAP)
+    3. Description Protocol - specifies how we describe our service (WSDL)
+    4. Discovery Protocol - UDDI, a specification for centralizing services in a directory Universal Discovery Description and Integration
