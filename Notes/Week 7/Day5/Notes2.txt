@@ -1,0 +1,86 @@
+Kafka demo presentation
+
+BASE
+    - Basic Availability - guaruntee data is there
+    - Soft State - no hard consistency (the fact that when one change in a table happens, instantly all the other tables are effected)
+    - Eventual Consistency - as some point in the future all data will be consistent
+
+
+
+Kafka:
+    - Allows us to publish/subscribe to streams of records
+        - Acts like a messaging queue
+    - Streams stored in fault-tolerant/durable way
+        - reason for being durable is it is clustered
+        - need at least one bootstrap server
+    - Streams processed as they occur
+
+
+
+Records:
+    - Key
+    - Value (payload)
+    - timestamp
+
+Groups:
+    - subscribers can join Groups
+    - each message gets sent to only one memeber of the Group 
+
+Topics:
+    - categories for the records
+    - records are published to a specific topic 
+    - consumers subscribe to specific topics 
+
+
+Queue
+    Pro:
+        highly scalable
+    Con:
+        each message only gets sent to one process. 
+        parallel processing issues with order.
+
+Publish/subscribe
+    Pro:
+        can have multiple subscribers, each gets the message
+    Con:
+        Doesn't scale well
+
+
+Kafka Clustering:
+    - each cluster has several nodes, called Brokers
+    - each Broker handles a share of the Partitions
+
+Partitions
+    - replication of the Stream for a Topic 
+    - need at least 1
+    - partitions are replicated across multiple Brokers
+    - leader partitions
+    - follower partitions
+    - if a leader goes down, one of the followers gets promoted
+    - each partition is assigned to a single group that is subscribed to the topic
+
+
+
+Broker
+    - each broker handles 1 or more partitions
+    - some of its partitions are "leaders", others are "followers"
+
+
+Stateless-ness
+    - each broker is Stateless
+    - the only info stored in each subscriber is the offset
+        - handled by the subscriber 
+    - key - tells what partition to use
+
+
+
+
+Zookeeper:
+    - Kafka uses Zookeeper as its DataStore
+    - Zookeeper is an open-source server used for distributed systems
+    - centralized storage of information
+    - stores keys and values (in a fault tolerate, distributed computing way)
+
+
+@KafkaEnabled
+@KafkaListener("topic")

@@ -29,4 +29,10 @@ Inside EC2:
 
 
 Inside Docker-demo
-    docker build -t fc-eureka .
+    docker build -t fs-eureka .
+    docker run -d -p 8761:8761 fs-eureka
+    docker ps 
+        - if you dont see something created or running, it failed
+
+    
+
