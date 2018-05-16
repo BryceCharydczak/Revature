@@ -1,0 +1,95 @@
+Common HTTP status codes:
+
+100s - Informational
+    100 - Continue
+    101 - Switching Protocols
+
+200s - Success
+    200 - OK
+    201 - Created
+    202 - Accepted
+    204 - No Content
+
+300s - Redirect
+    300 - Multiple Choices
+    301 - Resource Moved Permanently
+    302 - Found
+    305 - Use Proxy
+
+
+400s - Client side error
+    400 - Bad Request
+    401 - Unauthorized - Missing user authentication
+    403 - Forbidden
+    404 - File not found
+    405 - Method not allowed
+
+500s - Server side error
+    500 - Internal Server Error
+    502 - Bad Gateway
+    503 - Service Unavailable
+    504 - Gateway Timeout
+
+
+
+
+
+
+
+SOA
+    - black boxed
+    - loose coupling
+    - well defined interfaces
+
+Enterprise Service Bus - communication system to help services talk to one another
+Feign - Spring Cloud's implementation of a REST Template
+
+
+
+
+
+
+
+WSDL
+
+root tag = definition
+<definition>
+<types> - defines complex types
+    - nested xml tags = complex, outermost tag is the complex type, inner tag = primitive
+<message> - abstraction of the data being created by producers and consumers of our website
+<portType>
+<binding>
+<service> - collection of endpoints (ports)
+<port> - endpoints
+<operation>
+<import> - bring data from another WSDL into this one
+
+
+SOAP Annotations:
+@WebService
+@WebMethod
+@WebResults
+@RequestWrapper
+@ResponseWrapper
+
+
+REST - Representational State Transfer
+    Stateless, uniform interface, client/service
+    Client maintains State
+    Json, plain text, xml, binary outputs
+    only delivers HTTP 
+    only TRACE HTTP request not supported
+
+    consume:
+    model the data being represented (pojo)
+    open the endpoint
+    use web resource object to consume
+
+
+Stateless-ness - won't keep the information of previous services
+    Brokers - Stateless
+        Easily destroyable, easily spinup-able, faster
+
+Statefull-ness - keeps track of values in message
+    Zookeeper - Stateful
+    
