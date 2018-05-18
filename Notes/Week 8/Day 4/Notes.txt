@@ -1,0 +1,30 @@
+Docker AGAIN
+
+1) Docker file
+    - FROM <base-image>
+2) Docker Image (build command)
+    - docker build -t <tagname> .
+3) docker run
+
+
+Kubernetes vs Docker Swarm
+Docker Swarm - great for setting up small container orchestration networks
+Kubernetes - better for larger infrastructures
+
+Service - group of containers
+
+
+
+Docker Swarm 
+
+    docker service - N number of the same container replications
+        - 10 eureka container replications is one docker service
+
+    docker stack - many docker services
+
+
+    Queen and Worker dichotomy
+        - Queen receives the important information and disseminated to the worker nodes in the swarm.
+        - If a worker goes down, the other EC2's (worker or queen) will store the info of that downed worker.
+            - if all workers and queen are full of EC2 instructions and another EC2 goes down
+                provisions need to be made to start another EC2 as Infrastructure as a Code.
